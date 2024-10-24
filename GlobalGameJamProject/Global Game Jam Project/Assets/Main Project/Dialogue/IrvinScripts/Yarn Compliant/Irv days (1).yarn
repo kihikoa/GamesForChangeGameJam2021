@@ -1,0 +1,842 @@
+title: Start
+tags: 
+colorID: 6
+position: -2,135
+---
+//Day 1
+//you refers to Irvin
+<<Scene @ outside>>
+//You walk through the hallways of the school, with your eyes on a book.
+<<Act @ Irvin, Irvin>>
+Irvin: (I must say, Tolstoy had a gift. The fact that he could make a novel about an adulterous woman interesting is a feat within itself...)
+
+<<Act @ Strange Student, biz-guy, 1.25, center, #226677>>
+Strange Student: Yo! Y'all need to hear this! Lena is trying to hit on Bobby!
+<<Hide @ Strange Student>>
+//Students run towards the scene. You sighs.
+<<Show @ Irvin>>
+Irvin: Of course they would entertain themselves which such frivolous things.
+<<Act @ Random Student>>
+//A student runs into you, making you drop your book.
+Irvin: ...!
+
+Random Student: Oops! Did I stop you from enjoying your favorite book?
+//You pick up the book.
+Irvin: It's fine, it's not like I expected any better from you.
+//You walk away, the student blocks your path.
+Random Student: Excuse me?
+Irvin: You heard what I said. I know you're not hard of hearing, but maybe I shouldn't assume.
+//Irv crosses his arms. Sassy sprite here
+Irvin: Perhaps you're having trouble processing my words, It's not a surprise, The foul music you've been listening to has affected you on a cognitive level. 
+//Random student raises a hand.
+<<Hide @ Random Student>>
+<<Hide @ Irvin>>
+<<Act @ Mr. Smith, Mr. Smith>>
+Mr. Smith: Is everything alright here, gentlemen?
+
+<<Show @ Random Student>>
+
+Random Student: Yep! I was just asking Irvin about an assignment in one of our classes.
+<<Hide @ Random Student>>
+<<Show @ Mr. Smith>>
+
+Mr. Smith: Alright then! Goodbye for now Irvin, I'll see you in class!
+<<Hide @ Random Student>>
+<<Hide @ Mr. Smith>>
+<<Show @Irvin>>
+Irvin: Likewise.
+//Mr. Smith leaves and you try walk past the bully,but the stops you.
+Irvin: Please don't tell me you're stupid enough to start something a few feet away from a teacher.
+
+Random Student: Look here smarty, just because every teacher loves you and you speak like a snob doesn't mean anything. When I get the chance, I'm going to beat that oreo butt of yours.
+
+Irvin: Whatever helps you achieve that power fantasy.
+<<Hide @ Random Student>>
+//You walk away.
+
+Irvin: (,,,I hate all of them. I really do.)
+
+//<<Scene @ bg_classroom>>
+<<Act @ Mr. Smith, teacher>>
+//Irvin enters the classroom. Mr. Smith greets him and he returns the greeting. Irvin sits in his seat. Students start to enter the room and take their seats.
+//Bell rings. Mr. Smith starts to teach
+
+Mr. Smith: As we can see in this section of the film, Spike Lee is trying to communicate-
+
+//The door bursts open to reveal Amandla.
+
+<<Act @ Irvin>>
+Irvin: (Oh, of course it's her.)
+<<Hide @ Irvin>>
+<<Act @ Amandla, Amandla>>
+Amandla: Sorry I'm late.
+
+<<Act @ Mr. Smith>>
+Mr. Smith: You know my policy Amandla, if you're not in my room by the time the bell rings-
+
+Amandla: Don't bother coming. I know that but-
+
+Mr. Smith: No ifs, ands, or buts. Out!
+
+Amandla: Fine. This class sucks anyway!
+
+<<Hide @ Amandla>>
+<<Act @ Irvin>>
+
+//Amandla storms out of the room and slams the door.
+
+Irvin: (I expected nothing less from her.)
+<<Hide @ Irvin>>
+<<Act @ Mr.Smith>>
+Mr. Smith: When this movie came out, it sparked a controversy that lasts to this day. While it's obvious the police did the wrong thing, who do you believe did the right thing? Did anyone do the right thing in that matter? This isn't something you can look up since everyone has their opinion on the subject. If Lee himself can't give an exact answer for the question, the reviewers can't either.
+
+//A student raises a hand
+
+Mr. Smith: Yes?
+<<Act @ Random, RandomStudent>>
+
+Random: If there's no clear answer, what's the point?
+<<Hide @ Random>>
+<<Act @ Mr. Smith>>
+Mr. Smith: Good question! The point is to start a conversation on what we should for situations like this. There are people who believe the characters were justified in their rioting while others say otherwise. Should everything always be peaceful or should it be peaceful for a certain time?
+
+//A few hands go up
+
+Mr. Smith: Don't tell me, but discuss with your group members! I have decided to split the class into 6 groups of 3...
+
+//Irvin's eyes widen
+<<Hide @ Mr. Smith>>
+<<Act @ Irvin>>
+Irvin: (Maybe this won't be so bad...)
+<<Hide @ Irvin>>
+<<Act @ Mr. Smith>>
+Mr. Smith: Group 4 will be Amandla, Irvin, and Jelani...
+
+//Irvin freezes.
+
+Irvin: (Of course.)
+
+Mr. Smith: Now that you have your groups. You can meet and discuss with each other.
+
+//The bell rings. Irv gathers his things and stands to his feet
+<<Hide @ Irvin>>
+<<Act @ Jelani, Jelani>>
+???: Hey Irv!
+
+//Irv looks up to see Jelani running towards him.
+<<Act @ Irvin>>
+<<Act @ Jelani>>
+Irvin: Good day to you, Jelani.
+
+Jelani: Aw, thanks! Let's go meet up with Amandla!
+
+//Before he can respond, Jelani drags Irv out the room and they run into Amandla.
+<<Scene @ bg_hallway>>
+<<Hide @ Irvin>>
+<<Act @ Jelani>>
+Jelani: Hey guys! It seems we're working together on the project! Let's do this!
+
+Amandla: Oh cool. What are we doing it on.
+
+Irvin: If you were a diligent student, you would know that we're currently studying the iconic Spike Lee film Do The Right Thing-
+
+Amandla: I'm not stupid. Tell me what the actual project is.
+
+Irvin: We're going to determine if any of the characters did the right thing.
+
+Jelani: Uhhh. It's only one group assignment. Let's do the RIGHT thing by working together!
+
+Irvin: I can tell you who's doing the wrong thing. Anyway, I have to go to AP Physics. If you need to contact me, you can find my email in the school's directory. *leaves*
+
+Jelani: Wait! We haven't discussed our schedules!
+
+Irvin: Then we'll chat after you "break a few ankles" after your basketball practice.
+//Irv leaves them
+Irvin: (This is going to be a long week...)
+<<Scene @ bg_classroom>>
+//He goes into his AP Physics class.
+<<Hide @ Irvin>>
+<<Act @ Mr.P, Mr.P>>
+//<<Act Mr. P, teacher>>
+
+Mr. P: Good day, Irvin!
+
+Irvin: Good day, Mr. P.
+<<Act @ Irvin>>
+//Irv notices a stack of papers in his teacher's hands.
+
+Irvin: Is that last week's test?
+
+Mr. P: It is, and as usual, you received the highest grade in the class! Come up for your test!
+//Irvin hides a smile. The students around him roll their eyes.
+//Mr. P gives him the test. Irv freezes.
+Irvin: (An 89?)
+
+//He returns to his seat
+Mr. P: Is there something wrong, Irvin?
+
+Irvin: ...Not at all, I was just wondering which questions I got wrong.
+
+Mr. P: You're math was off in the short answers. It was a hard test and I was expecting most to receive a grade between the high 70s and low 80s. You receiving an 89 not only shows your an expert in the subject, but it's the new 100 for the class!
+
+Irvin: I understand. Thank you, Mr.P.
+
+<<Hide @ Mr. P>>
+
+//Irv returns to his seat. He can hear a few students mumble.
+
+//Random: Is he serious upset over an 89?
+
+//Random2: He's one of those dudes that need to be better than everyone. Just look at the way he dresses. It's like he's going to church or something.
+
+//Irv adjusts his blazer and sits down
+//Class begins. As the teacher teaches, he keeps thinking about the 89.
+
+Irvin: (Mother and Father aren't going to like this...)
+<<Scene @ bg_hallway>>
+//The school day goes by. He checks his email but doesn't see anything from Jelani or Amandla.
+
+Irvin: (Imagine being incapable of using an online database.)
+
+//Irv arrives home. Soon his parents come home and it's time for dinner.
+<<Scene @ bg_livingroom>>
+<<Act @ Mother, Mom>>
+Mother: So Irvin, have you received your grade from your AP Physics test?
+
+<<Act @ Irvin>>
+Irvin: I did.
+
+<<Act @ Father, Dad>>
+Father: And...
+
+Irvin: I received the highest grade.
+
+//His parents smile.
+
+Father: Good!
+
+Irvin: It was an 89.
+//Utensils land on the plate. His parents stare at him.
+<<Hide @ Irvin>>
+Mother: An 89?! What happened?! Did he make a mistake?
+
+<<Hide @ Mother>>
+<<Hide @ Father>>
+<<Hide @ Irvin>>
+<<Act @ Irvin>>
+Irvin: No. The test was difficult, even Mr. P admitted it. He wasn't expecting anyone to get a grade higher than the low 80s.
+
+<<Hide @ Irvin>>
+<<Act @ Mother>>
+<<Act @ Father>>
+Father: And now your average is going to drop.
+
+<<Act @ Irvin>>
+<<Hide @ Mother>>
+<<Hide @ Father>>
+
+Irvin: Actually when it comes to AP classes, you have to multiply the grade you receive by-
+
+<<Hide @ Irvin>>
+<<Act @ Mother>>
+<<Act @ Father>>
+Father: If you did that, would you have received a 100?
+
+<<Act @ Irvin>>
+<<Hide @ Mother>>
+<<Hide @ Father>>
+Irvin: ...No.
+
+//His father shakes his head.
+<<Hide @ Irvin>>
+<<Act @ Father>>
+Father: Irvin, this is the USA, not the USB+! Your mother and I emmigrated to this country so you could have a surplus of opportunities, and this what you do? If your grades go down, the Ivy Leagues will laugh at your application and you'll be forced to attend some pathetic school like NYU or RIT.
+
+<<Act @ Irvin>>
+<<Hide @ Father>>
+Irvin: I understand.
+
+<<Hide @ Irvin>>
+<<Act @ Father>>
+Father: Good. Now go to your room and study. We can't afford to have you make another mistake again.
+<<Scene @ bg_bed>>
+<<Act @ Irvin>>
+<<Hide @ Father>>
+//Irvin nods and goes into his room and opens his physics textbook
+//__________________________________________________________________
+===
+title: Node
+tags: 
+colorID: 0
+position: 211,139
+---
+//Day 2
+<<Scene @ bg_hallway>>
+<<Act @ Irvin, Irvin>>
+//Irv walks into school. While he looks fine in everyone else's eyes. He's really tired.
+
+<<Act @ Irvin, Irvin>>
+Irvin: (All I have to do is get through the day so I can take a nap as soon as I get home.)
+
+<<Act @ Jelani, Jelani>>
+Jelani: IRVIN!
+
+//Irv turns around to see Jelani dashing towards him. He doesn't even get a chance to react!
+
+Jelani: I couldn't find your email in the directory so I couldn't contact you yesterday! We need to meet up with Amandla so we can schedule a meeting for our project.
+
+Irvin: I'm not in the mood to-
+
+//She drags him over to Amandla.
+<<Act @ Amandla, Amandla>>
+
+Jelani: Hey guys! We have to schedule this meeting sooner than later...
+
+Irvin: Fine. Let's meet in the Library at 3.
+
+Amandla: Wow, everyone's favorite student wants us to be in his presence? This is such an honor!
+
+//Irvin stares at her
+
+Jelani: Okay! What's your email? I couldn't find it in the directory?
+
+Irvin: Irvin@DCSchools.edu. Bye for now.
+
+//Irv leaves for his next class. As he walks, he can barely stay awake.
+//He runs into something. When he opens his eyes. It's the student that ran into him yesterday.
+
+//Show tag
+<<Act @ Random Student, Random>>
+Random Student: Well would you look at that? It's the teacher's pet!
+<<Act @ Irvin>>
+//Irv rubs his eyes.
+
+Irvin: Just say what you need to say so you can live the power fantasy you keep on thinking about.
+
+//Random gets angry.
+
+Random Student: What did you say?
+
+Irvin: I'm not a fan of repeating myself. Considering getting your ears checked so you can hear me the first time.
+
+//Random raises his hands.
+
+<<Act @ ???, IrvFriend>>
+
+???: Hey! Leave Irvin alone!
+
+//Irv and random see Irv's friend John, standing not too far away.
+
+Irvin: (Ah, John. You're just in time.)
+
+<<Act @ John, IrvFriend>>
+<<Hide @ Irvin>>
+<<Hide @ Random Student>>
+
+John: Look here buddy, no one wants any trouble! If you lay a hand on him, I'll make sure the teachers will write you so the principal can deal with you!
+
+//Random stands down.
+<<Act @ Random Student>>
+<<Hide @ John>>
+Random: Of course your White pal would show up to save you. I promise you, the next time you do act snarky, it'll be over. See you soon, sellout.
+
+//Random walks away. John walks up to Irv.
+
+<<Act @ John>>
+<<Hide @ Random>>
+John: Are you ok? I got a bit nervous when he started talking to you but it looks like my words made him reconsider!
+<<Act @ Irvin>>
+Irvin: Yes, they did. Thank you.
+
+//John frowns.
+
+John: Is everything ok?
+
+Irvin: Yes. I will see you during lunch.
+
+//John nods and they go their separate ways.
+//The day goes by and somehow Irv is able to make it to the library.
+<<Scene @ bg_library>>
+
+Irvin: (As soon as this thing is over, I'm going to take a nap.)
+
+//He looks at the time. In a few minutes, Jelani and Amandla come In
+<<Act @ Jelani>>
+<<Hide @ Amandla>>
+Irvin: It's good to see you two are on time.
+
+Amandla: What, you expected us to be late?
+
+Irvin: Considering who I'm working with...
+
+Jelani: Be nice. Anywho,  What did you guys think of the movie?
+
+Amandla: Well I thought everyone was justified in their actions. Sal had the right to do what he wants in his place. The people of bed-sty have control of their neighbourhood. The only group of people in the wrong were the cops. ACAB.
+
+Irvin: I believe no one did the right thing. While I agree with Buggin' Out's opinion that the wall should have influential Black figures on the wall and a boycott would be a great solution to this problem, he let his anger cloud his judgment and partnered with Radio Raheem to cause a situation that should have never happened. If Buggin' Out and Sal were able to have a civil conversation with each other, the change would have been made.
+
+Jelani:  Well, it gave me a certain joy when Sal's Place was burned down. I'll say that.  While everyone had some wrong in them, Sal was the most wrong. He caused the most havoc.
+
+//They stare at each other
+
+Amandla: Why am I not surprised about your opinion Irvin. What would a goody 2 shoes like you understand about struggle, huh? You don't understand how us measly regular people experience the world and I don't know if you ever will.
+
+Irvin: Just because I have a standard and a reputation to uphold, doesn't mean I don't understand struggle. In fact, being your babysitter for these next few days is worth a decade of struggle!
+
+Amandla: You'll never understand what it's really like to be black. You'll never understand what people like Jelani and I go through. We don't adapt ourselves and change to be "proper". Proper to who? We all know who.
+
+Irvin: *chuckles* The fact that you think I'm trying to please the "White man", then that tells me everything I need to know. You have such low standards for Black people that you think me being me means I want to be White! Is that why you act like a reject? You think you're helping our people by being a deliquent?
+
+Amandla: Oh you think you know me. You think you know me! You don't. You'll know my fist pretty well if you keep talking though. So go ahead, keep talking.
+
+Jelani: Irvin, you have been working my nerves all day. The way you have talking to us is out of pocket. I get it. You are feeling a lot of pressure, but there's no reason for you to be looking down on others like that.
+
+Amandla: See Irvin. Even Jelani, the worlds kindest athlete, thinks that you're a pompus prick.
+
+Jelani: You're about to see a different person today. Amandla, you are just as problematic. It's insulting you would sit here at tell another black person that they don't struggle.
+
+Amandla: Well aren't you a walking talking stereotype. Sports, really? Trying to be the next unproblematic Serena Williams are we?
+
+Jelani: Weren't you late yesterday? I got time today. I wasn't going to say anything, but you aren't that smart, you're failing your classes, and nobody likes you. I tried to be your friend, but you don't deserve it dummy.
+
+Irvin: At least someone here has sense!
+
+Jelani: Don't speak. Your mouth has been spewing nothing but nonsense the past hour. I'm not about to do this. I'm out.
+
+<<Hide @ Irvin>>
+<<Hide @ Amandla>>
+<<Scene @ bg_hallway>>
+//Irv gathers his things and leaves, fuming.
+Irvin: (How dare those two speak to me that way? They had the audacity to say I was being "out of pocket". If I was "out of pocket", they were out of their minds! And the audacity for that tardy pariah to call me "White"? Despicable! Imagine being livid by someone being themselves instead of blending in with the hivemind!) 
+
+//Irv spots a a bulletin board with papers on it. He grabs one of the papers, crumbles it up, and throws it at the ground.
+//A few seconds pass. Sighing, he picks it up and throws it in the garbage.
+
+Irvin: (There's no need to go ballistic, Irvin. That would bring those two fools pleasure. Take a deep breath and calm down...)
+//Irv returns home. He goes into his room and jumps into bed.
+<<Scene @ bg_bedroom>>
+Irvin: (As much as I would love to forget about them. I can't afford to when I have a grade on the line...)
+
+//He rolls over.
+
+Irvin: (I'll worry about that later. For now, It's time for a quick nap.)
+===
+title: Node_2
+tags: 
+colorID: 0
+position: 432,138
+---
+//Day 3
+<<Scene @ bg_hallway>>
+//Refreshed, Irvin walks through the halls. Going though the usual motions of his school day.
+//When he enters his math class, he sees Amandla sitting in the desk behind his.
+<<Scene @ bg_classroom>>
+<<Act @ Irvin>>
+<<Act @ Amandla>>
+
+Irvin: (She's actually arrived before I did. Either she's fixing her actions, or she's already rubbing off on me.)
+//He cringes at the thought
+Irvin: (Godforbid the latter.)
+//He ignores the tension and sits in his seat.
+<<Hide @ Amandla>>
+//The class starts. He starts taking notes. As he writes, he hears a paper being ripped up and crumpled behind him.
+
+Irvin: (3... 2... 1...)
+
+//Something hits his back. He rolls his eyes and continues to write.
+//The bell rings and Irv walks towards the band room.
+<<Scene @ bg_hallway>>
+//As he walks towards it, he sees Jelani running down the hall with her gym uniform on.
+<<Hide @ Irvin>>
+<<Act @ Jelani>>
+//They glare at each other as they cross paths.
+//Once she's gone, he exhales and enters the band room.
+<<Scene @ bg_classroom>>
+//John spots him and waves him over!
+<<Act @ Irvin>>
+<<Act @ Father>>
+John: Hey Irvin... is everything ok? You look angry!
+
+Irvin: I would be lying if I said I was ok. I'm having a squabble with my group mates for Mr. Smith's class.
+
+John: Really? What happened?
+
+Irvin: Let's just say Miss Punky Reject had a few words about me while Miss "Hiyeeeeeee!" corraborated her statements.
+
+John: Really? Are you sure you weren't being a bit harsh with them?
+
+Irvin: I don't see why that would-
+
+//John stares at him
+
+Irvin: ...Perhaps. I didn't sleep that night since my parents wanted to test me on the material I studied.
+
+John: You failed a test?!
+
+Irvin: Yes. I received an 89 on the Physics test.
+
+John: Wasn't that the highest grade?
+
+Irvin: Yes, it was.
+
+//John frowns
+
+Irvin: Don't pity me, John. I'm not a beaten puppy.
+
+John: I'm not pitying you! You're my friend, I care about you! Honestly, I think you should apologize and tell them that you had a bad day.
+
+Irvin: Me? Apologize?
+
+John: Yes! Unless you want to tell your parents that you got a 0 due to an argument with your group members, you have no choice!
+
+Irvin: I'm not going to apologize to the duo that spat on my identity and personality! They'll need to apologize to me!
+
+John: But your grade-
+
+Irvin: I'll ask Mr. Smith for a last minute adjustment. I'm one of his favorite students, I'm sure he'll make the change.
+===
+title: Node_3
+tags: 
+colorID: 0
+position: 642,139
+---
+//Day 4
+//Irvin is in class, waiting for the bell to ring.
+<<Scene @ bg_classroom>>
+Mr. Smith: Group 4, how are you doing on your project?
+
+<<Act @ Irvin>>
+Irvin: Not so good due to some people.
+
+<<Act @ Amandla>>
+<<Act @ Irvin>>
+Amandla: Don't act like this isn't the fault of you and your trash opinion.
+
+<<Act @ Jelani>>
+Jelani: You see what I had to deal with?
+
+<<Act @ Mr. Smith>>
+<<Hide @ Jelani>>
+<<Hide @ Irvin>>
+<<Hide @ Amandla>>
+
+Mr. Smith: Your personal problems are not mine. I just need you 3 to present a coherent presentation tomorrow or it's a zero.
+<<Act @ Irvin>>
+<<Hide @ Mr.Smith>>
+//Students laugh. Irvin fumes.
+//Class goes on. The bell rings and he rushes over to Mr. Smith's desk.
+<<Act @ Irvin>>
+<<Act @ Mr. Smith>>
+Mr. Smith: Irvin! What can I do for you?
+
+Irvin: I know this is last minute but-
+
+Mr. Smith: No.
+
+Irvin: ...I didn't even-
+
+Mr. Smith: -finish? I know. You're not getting along with your classmates and now you're wondering if I can break your group apart. It's too late for that, the project is due tomorrow! Plus, I believe that you can rub off on Amandla and turn her from a rebel to a good student. Believe it or not, I care about her wellbeing to an extent.
+
+Irvin: But Mr. Smith...
+
+Mr. Smith: No ifs, ands, or buts?
+
+Irvin: B-
+
+Mr. Smith: Oh Irvin, don't tell me you're hard of hearing!
+
+//Irvin stands still.
+
+Irvin: I understand. Enjoy the rest of your day.
+<<Hide @ Mr. Smith>>
+<<Scene @ bg_hallway>>
+//He leaves the room. He goes into his Physics class. 
+<<Scene @ bg_classroom>>
+//He greets Mr. P and goes through the class.
+//Once the bell rings, he packs up his things. He hears snickering around him. Ignoring it, he puts his bookbag on his back and looks up to see his mother in the room he freezes.
+<<Act @ Irvin>>
+<<Act @ Mother>>
+Irvin: (...Oh no.)
+
+//His mother faces him and motions him to come upward. Mr. P gives her a small smile.
+<<Act @ Mr. P>>
+<<Hide @ Irvin>>
+Mr. P: Mrs. [HMMM]... I didn't expect to see you today.
+<<Act @ Mother>>
+Mother: Neither did I. Can we chat a bit about my son's performance in this class?
+
+Mr. P: ...Sure!
+
+//Students eye Irv. He walks up to the desk behind his mother and sits as his face heats up.
+//Once the students leave, his mother faces him.
+
+Mother: Irvin, close the door so this conversation can be private.
+<<Act @ Irvin>>
+<<Hide @ Mr. P>>
+<<Hide @ Mother>>
+//He listens and returns to his seat.
+<<Hide @ Irvin>>
+<<Act @ Mr. P>>
+<<Act @ Mother>>
+
+Mr. P: So what would you like to discuss about his grade?
+
+Mother: He revealed to his father and I that he received an 89?
+
+Mr. P: Yes! It was the highest grade in the class!
+
+Mother: Yes, we've heard. The two of us want to know the mistakes he made to get this strange grade?
+
+//Mr. P shifts a bit.
+
+Mr. P: ...Strange?
+<<Act @ Irvin>>
+<<Hide @ Mr. P>>
+<<Hide @ Mother>>
+Irvin: (I can't watch this.)
+//He stands up
+<<Hide @ Irvin>>
+<<Hide @ Mr. P>>
+<<Act @ Mother>>
+Mother: Sit down, Irvin.
+//He sits down
+<<Act @ Irvin>>
+<<Hide @ Mr. P>>
+<<Hide @ Mother>>
+Irvin: Yes, Mother.
+<<Hide @ Irvin>>
+<<Hide @ Mr. P>>
+<<Act @ Mother>>
+Mother: Irvin has been receiving perfect scores in this class, receiving this grade will damage his grade and will ultimately decimate his overall grade point average.
+<<Act @ Mr. P>>
+Mr. P: While his grade will shift, it won't be drastic. You see, the 89 isn't the real grade since you need to multiply it by-
+
+Mother: It still won't be a 100 and will hurt his grade. Can he retake the test?
+//Shocked here
+<<Act @ Irvin>> 
+<<Hide @ Mr. P>>
+<<Hide @ Mother>>
+
+//______
+
+<<Hide @ Irvin>>
+<<Act @ Mr. P>>
+<<Hide @ Mother>>
+Mr. P: It's a bit late for that...
+<<Act @ Mother>>
+Mother: Are you able to make another test with different questions and have him take it before or after school? You don't have to make the test easier for him. The questions can be the same difficulty or harder since we made sure he studied and understood the material the other night.
+<<Act @ Mr.P>>
+<<Act @ Irvin>>
+<<Hide @ Mother>>
+//Mr. P glances at Irv then looks at his Mother
+<<Hide @ Irvin>>
+<<Act @ Mr. P>>
+<<Act @ Mother>>
+Mr. P: I'm afraid not since that wouldn't be fair to the other students. If it helps, I could assign him some extra credit that can boost his test grade to a 100.
+
+//His mother smiles.
+
+Mother: That will be fine. Thank you for understanding!
+
+//The bell rings. Mr. P smiles.
+
+Mr.P: Great! I'll email Irvin the extra credit later since I need to write him a late pass.
+
+Mother: Yes! Yes! No worries!
+<<Act @ Irvin>>
+<<Hide @ Mr. P>>
+<<Act @ Mother>>
+//She walks up to her son and gives her son a quick kiss.
+
+Mother: I will see you when you come home!
+
+//She leaves. 
+<<Act @ Irvin>>
+<<Act @ Mr. P>>
+//Mr. P walks over to Irv and hands him the pass.
+
+Irvin: Thank you.
+<<Scene @ bg_hallway>>
+//He leaves before Mr. P can speak. 
+<<Scene @ bg_classroom>>
+//His next class is a blur. Soon it's lunch. He enters the library with John by his side.
+<<Scene @ bg_library>>
+<<Act @ Irvin>>
+<<Act @ John>>
+<<Hide @ Mother>>
+John: Irvin, I know you're embarrassed but hiding out in the library isn't going to help. You have a few more classes left in the day!
+
+Irvin: I'm aware and I don't care. I just want to disappear for a few minutes and find comfort in a good book.
+
+//As he walks through the library, He spots Amandla eating lunch. He is about to roll he eyes until spots the book in her hand.
+
+Irvin: (My goodness... she's reading Tolstoy!)
+//He rubs his eyes and eyes the book again.
+John: Irvin, are you tired?
+
+Irvin: No, I thought I was seeing things. Let's find a table to eat before it's too late.
+
+//LOL WE DIDN'T WRITE THIS PART!
+===
+title: Node_4
+tags: 
+colorID: 0
+position: 851,141
+---
+//Day 5
+//End of presentation
+<<Scene @ bg_classroom>>
+<<Act @ Mr. Smith>>
+Mr. Smith: I must say I'm impressed that you three were able to come together in the end!
+<<Act @ Irvin>>
+<<Act @ Jelani>>
+<<Act @ Amandla>>
+<<Hide @ Mr. Smith>>
+
+Amandla: What're you trying to say?
+
+//Jelani and Irv step on her feet, shutting her up.
+
+Jelani and Irv: Thanks Mr. Smith!
+
+<<Hide @ Irvin>>
+<<Hide @ Jelani>>
+<<Hide @ Amandla>>
+<<Hide @ Mr. Smith>>
+
+Mr. Smith: You're welcome! You know... I think you three can be best friends if you spend more time with each other.
+
+//Anything else?
+===
+title: Node_5
+tags: 
+colorID: 0
+position: 1066,138
+---
+Empty Text
+===
+title: J.Start
+tags: 
+colorID: 8
+position: -495,-462
+---
+<<Scene @ Outside>>
+<<Show @ Jelani, 0.5, 0.5>>
+<<Set $Good to 0>>
+<<Set $Bad to 0>>
+Jelani: I can't wait for my track and field meet this weekend! 
+Jelani: I know I'll come in first place. 
+[[J.Class1]]
+===
+title: J.Class1
+tags: 
+colorID: 0
+position: -473,-62
+---
+<<Scene @ Classroom>>
+
+<<Show @ Mr.Smith, 0.5, 0.5>>
+
+Mr.Smith: As you can see in this section of the film, Spike Lee is trying to commuinicate-
+
+<<Show @ Amandla, 0.75, 0.75>>
+
+Amandla: I'm Sorry I'm late. 
+
+Mr.Smith: Amandla: Sorry I'm late.
+
+Mr. Smith: You know my policy Amandla, if you're not in my room by the time the bell rings-
+
+Amandla: Don't bother coming. I know that but-
+
+Mr. Smith: No ifs, ands, or buts. Out!
+
+Amandla: Fine. This class sucks anyway!
+
+<<Hide @ Amandla>>
+<<Hide @ Mr.Smith>>
+
+<<Show @ Jelani, 0.75, 0.75>>
+
+Jelani: That was harsh. I hope Amandla is okay. 
+
+<<hide @ Jelani>>
+
+<<Show @ Mr.Smith, 0.75, 0.75>>
+
+Mr.Smith: As I was saying- before I was rudely interrupted. 
+
+
+Mr. Smith: When this movie came out, it sparked a controversy that lasts to this day. While it's obvious the police did the wrong thing, who do you believe did the right thing?
+
+
+Mr.Smith: Did anyone do the right thing in that matter? This isn't something you can look up since everyone has their opinion on the subject. 
+
+Mr. Smith: If Lee himself can't give an exact answer for the question, the reviewers can't either.
+
+<<Show @ Jelani>>
+
+Jelani: If there's no clear answer, what's the point?
+
+<<Hide @ Jelani>>
+
+Mr. Smith: Good question! The point is to start a conversation on what we should for situations like this. 
+
+
+Mr. Smith: There are people who believe the characters were justified in their rioting while others say otherwise. 
+
+Mr.Smith: Should everything always be peaceful or should it be peaceful for a certain time?
+
+//A few hands go up
+
+Mr. Smith: Don't tell me, but discuss with your group members! I have decided to split the class into 6 groups of 3...
+
+Mr. Smith: Group 4 will be Amandla, Irvin, and Jelani.
+
+<<Show @ Irvin>>
+
+Irvin: Oh great... A team of people who don't care.
+
+[[J.Hallway1]]
+===
+title: J.Hallway1
+tags: 
+colorID: 0
+position: -206,372
+---
+<<Scene @ Hallway>>
+
+<<Show @ Amandla 0.25, 0.25>>
+<<Show @ Jelani 0.5, 0.5>> 
+<<Show @ Irvin 0.75, 0.75>>
+//Irvin and Jelani approach Amandla in the hallway
+
+Jelani: Hey guys! It seems we're working together on the project! Let's do this!
+
+Amandla: Oh cool. What are we doing it on.
+
+Irvin: If you were a diligent student, you would know that we're currently studying the iconic Spike Lee film Do The Right Thing-
+
+Amandla: I'm not stupid. Tell me what the actual project is.
+
+Irvin: *scoff* We're going to determine if any of the characters did the right thing.
+
+Jelani: Uhhh. It's only one group assignment. Let's do the RIGHT thing by working together!
+
+Irvin: I can tell you who's doing the wrong thing. Anyway, I have to go to AP Physics. If you need to contact me, you can find my email in the school's directory. *leaves*
+
+Jelani: Wait! We haven't discussed our schedules!
+
+Irvin: Then we'll chat after you "break a few ankles" after your basketball practice.
+
+Jelani: I don't even play basketball...
+
+//Irvin leaves the scene
+<<Hide @ Irvin>>
+
+Amandla: That guy is such a massive prick! He probably says indubitably. Probably has a maid in his house who ties his shoes! Unbelivable!
+
+Jelani: It's only a week. Let's try to work together.
+
+Amandla: Okay pep squad (rolls her eyes)
+===

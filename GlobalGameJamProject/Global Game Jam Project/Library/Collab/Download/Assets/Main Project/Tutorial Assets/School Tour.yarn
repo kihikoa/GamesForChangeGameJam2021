@@ -1,0 +1,48 @@
+title: Outside
+tags: 
+colorID: 0
+position: -509,405
+---
+<<Scene @ Outside>>
+This is the entrance to the school!
+Lets go inside!
+[[The Stairs|Stairs]]
+[[Hallway|Hallway]]
+[[Classroom|Classroom]]
+===
+title: Stairs
+tags: 
+colorID: 0
+position: -854,693
+---
+<<Scene @ Stairs>>
+These are the stairs!
+Careful not to fall!
+[[Outside|Outside]]
+[[Hallway|Hallway]]
+[[Classroom|Classroom]]
+===
+title: Hallway
+tags: 
+colorID: 0
+position: -497,1056
+---
+<<Scene @ Hallway>>
+This is the hallway!
+I hope you have a hall pass
+[[The Stairs|Stairs]]
+[[Outside|Outside]]
+[[Classroom|Classroom]]
+===
+title: Classroom
+tags: 
+colorID: 0
+position: -132,695
+---
+<<Scene @ Classroom>>
+This is the entrance to the school!
+Lets go inside!
+[[The Stairs|Stairs]]
+[[Hallway|Hallway]]
+[[Outside|Outside]]
+===

@@ -1,0 +1,237 @@
+//Day 1
+<<Act @ Irvin, Irvin>>
+Irvin: I don't associate myself with most of my peers.
+Irvin: But because the people here are strange.
+Irvin: Very Strange.
+<<Act @ Strange Student, biz-guy, 1.25, center, #226677>>
+Strange Student: Yo! Y'all need to hear this! Lena is trying to hit on Bobby!
+//Students run towards the scene.Irvin sighs.
+Irvin: My peers aren't the smartest people. They care more about the "now" than the future.
+<<Hide @ Strange Student>>
+<<Act @ Random Student>>
+//A student runs into Irvin, making him drop his books
+Irvin: ...!
+
+Random Student: Sorry 'bout that!
+//Boy disappears, leaving an angry Irvin
+//Irvin stares at him.
+-> Let him go.
+    Irvin: (He's not worth my time.)
+
+-> Insult him
+    Irvin: It's fine, it's not like I expected any better from you.
+    //Random Student faces him
+    Random Student: Excuse me?
+    Irvin: You heard what I said. I know you're not hard of hearing.
+    //Random student opens his mouth to say something but Irv walks away from him.
+
+Irvin: ,,,I hate all of them. I really do.
+
+//<<Scene @ bg_classroom>>
+<<Act @ Mr. Smith, teacher>>
+//Irvin enters the classroom. Mr. Smith greets him and he returns the greeting. Irvin sits in his seat. Students start to enter the room and take their seats.
+//Bell rings. Mr. Smith starts to teach
+
+Mr. Smith: As we can see in this section of the film, Spike Lee is trying to communicate-
+
+//The door bursts open to reveal Amandla.
+
+<<Act @ Irvin>>
+Irvin: (Oh, of course it's her.)
+<<Hide @ Irvin>>
+<<Act @ Amandla, Amandla>>
+Amandla: Sorry I'm late.
+
+<<Act @ Mr. Smith>>
+Mr. Smith: You know my policy Amandla, if you're not in my room by the time the bell rings-
+
+Amandla: Don't bother coming. I know that but-
+
+Mr. Smith: No ifs, ands, or buts. Out!
+
+Amandla: Fine. This class sucks anyway!
+
+<<Hide @ Amandla>>
+<<Act @ Irvin>>
+
+//Amandla storms out of the room and slams the door.
+
+Irvin: (I expected nothing less from her.)
+<<Hide @ Irvin>>
+<<Act @ Mr.Smith>>
+Mr. Smith: When this movie came out, it sparked a controversy that lasts to this day. While it's obvious the police did the wrong thing, who do you believe did the right thing? Did anyone do the right thing in that matter? This isn't something you can look up since everyone has their opinion on the subject. If Lee himself can't give an exact answer for the question, the reviewers can't either.
+
+//A student raises a hand
+
+Mr. Smith: Yes?
+<<Act @ Random, RandomStudent>>
+
+Random: If there's no clear answer, what's the point?
+<<Hide @ Random>>
+<<Act @ Mr. Smith>>
+Mr. Smith: Good question! The point is to start a conversation on what we should for situations like this. There are people who believe the characters were justified in their rioting while others say otherwise. Should everything always be peaceful or should it be peaceful for a certain time?
+
+//A few hands go up
+
+Mr. Smith: Don't tell me, but discuss with your group members! I have decided to split the class into 6 groups of 3...
+
+//Irvin's eyes widen
+<<Hide @ Mr. Smith>>
+<<Act @ Irvin>>
+Irvin: (Maybe this won't be so bad...)
+<<Hide @ Irvin>>
+<<Act @ Mr. Smith>>
+Mr. Smith: Group 4 will be Amandla, Irvin, and Jelani...
+
+//Irvin freezes.
+
+Irvin: (Of course.)
+
+Mr. Smith: Now that you have your groups. You can meet and discuss with each other.
+
+//The bell rings. Irv gathers his things and stands to his feet
+<<Hide @ Irvin>>
+<<Act @ Jelani, Jelani>>
+???: Hey Irv!
+
+//Irv looks up to see Jelani running towards him.
+<<Act @ Irvin>>
+<<Act @ Jelani>>
+Irvin: Good day to you, Jelani.
+
+Jelani: Aw, thanks! Let's go meet up with Amandla!
+
+//Before he can respond, Jelani drags Irv out the room and they run into Amandla.
+<<Scene @ bg_hallway>>
+<<Hide @ Irvin>>
+<<Act @ Jelani>>
+Jelani: Hey guys! It seems we're working together on the project! Let's do this!
+
+Amandla: Oh cool. What are we doing it on.
+
+Irvin: If you were a diligent student, you would know that we're currently studying the iconic Spike Lee film Do The Right Thing-
+
+Amandla: I'm not stupid. Tell me what the actual project is.
+
+Irvin: We're going to determine if any of the characters did the right thing.
+
+Jelani: Uhhh. It's only one group assignment. Let's do the RIGHT thing by working together!
+
+Irvin: I can tell you who's doing the wrong thing. Anyway, I have to go to AP Physics. If you need to contact me, you can find my email in the school's directory. *leaves*
+
+Jelani: Wait! We haven't discussed our schedules!
+
+Irvin: Then we'll chat after you "break a few ankles" after your basketball practice.
+//Irv leaves them
+Irvin: (This is going to be a long week...)
+<<Scene @ bg_classroom>>
+//He goes into his AP Physics class.
+<<Hide @ Irvin>>
+<<Act @ Mr.P, Mr.P>>
+//<<Act Mr. P, teacher>>
+
+Mr. P: Good day, Irvin!
+
+Irvin: Good day, Mr. P.
+<<Act @ Irvin>>
+//Irv notices a stack of papers in his teacher's hands.
+
+Irvin: Is that last week's test?
+
+Mr. P: It is, and as usual, you received the highest grade in the class! Come up for your test!
+//Irvin hides a smile. The students around him roll their eyes.
+//Mr. P gives him the test. Irv freezes.
+Irvin: (An 89?)
+
+//He returns to his seat
+Mr. P: Is there something wrong, Irvin?
+
+Irvin: ...Not at all, I was just wondering which questions I got wrong.
+
+Mr. P: You're math was off in the short answers. It was a hard test and I was expecting most to receive a grade between the high 70s and low 80s. You receiving an 89 not only shows your an expert in the subject, but it's the new 100 for the class!
+
+Irvin: I understand. Thank you, Mr.P.
+
+<<Hide @ Mr. P>>
+
+//Irv returns to his seat. He can hear a few students mumble.
+
+//Random: Is he serious upset over an 89?
+
+//Random2: He's one of those dudes that need to be better than everyone. Just look at the way he dresses. It's like he's going to church or something.
+
+//Irv adjusts his blazer and sits down
+//Class begins. As the teacher teaches, he keeps thinking about the 89.
+
+Irvin: (Mother and Father aren't going to like this...)
+<<Scene @ bg_hallway>>
+//The school day goes by. He checks his email but doesn't see anything from Jelani or Amandla.
+
+Irvin: (Imagine being incapable of using an online database.)
+
+//Irv arrives home. Soon his parents come home and it's time for dinner.
+<<Scene @ bg_livingroom>>
+<<Act @ Mother, Mom>>
+Mother: So Irvin, have you received your grade from your AP Physics test?
+
+<<Act @ Irvin>>
+Irvin: I did.
+
+<<Act @ Father, Dad>>
+Father: And...
+
+Irvin: I received the highest grade.
+
+//His parents smile.
+
+Father: Good!
+
+Irvin: It was an 89.
+//Utensils land on the plate. His parents stare at him.
+<<Hide @ Irvin>>
+Mother: An 89?! What happened?! Did he make a mistake?
+
+<<Hide @ Mother>>
+<<Hide @ Father>>
+<<Hide @ Irvin>>
+<<Act @ Irvin>>
+Irvin: No. The test was difficult, even Mr. P admitted it. He wasn't expecting anyone to get a grade higher than the low 80s.
+
+<<Hide @ Irvin>>
+<<Act @ Mother>>
+<<Act @ Father>>
+Father: And now your average is going to drop.
+
+<<Act @ Irvin>>
+<<Hide @ Mother>>
+<<Hide @ Father>>
+
+Irvin: Actually when it comes to AP classes, you have to multiply the grade you receive by-
+
+<<Hide @ Irvin>>
+<<Act @ Mother>>
+<<Act @ Father>>
+Father: If you did that, would you have received a 100?
+
+<<Act @ Irvin>>
+<<Hide @ Mother>>
+<<Hide @ Father>>
+Irvin: ...No.
+
+//His father shakes his head.
+<<Hide @ Irvin>>
+<<Act @ Father>>
+Father: Irvin, this is the USA, not the USB+! Your mother and I emmigrated to this country so you could have a surplus of opportunities, and this what you do? If your grades go down, the Ivy Leagues will laugh at your application and you'll be forced to attend some pathetic school like NYU or RIT.
+
+<<Act @ Irvin>>
+<<Hide @ Father>>
+Irvin: I understand.
+
+<<Hide @ Irvin>>
+<<Act @ Father>>
+Father: Good. Now go to your room and study. We can't afford to have you make another mistake again.
+<<Scene @ bg_bed>>
+<<Act @ Irvin>>
+<<Hide @ Father>>
+//Irvin nods and goes into his room and opens his physics textbook
+//__________________________________________________________________

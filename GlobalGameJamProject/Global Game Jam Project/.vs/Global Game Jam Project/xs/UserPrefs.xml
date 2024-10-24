@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{1E31C3C4-F7F3-DA13-2618-761E8CA432C9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Ropework/example/yarnScripts/IrvinScripts/IrvinD1.txt">
+    <Files>
+      <File FileName="Assets/Yarn Tutorial/School Tour.txt" Line="49" Column="1" />
+      <File FileName="Assets/YarnSpinner/Examples/DemoScripts/ExampleVariableStorage.cs" />
+      <File FileName="Assets/Ropework/example/yarnScripts/IrvinScripts/IrvinD1.txt" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Global Game Jam Project" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Ropework" expanded="True">
+                <Node name="example" expanded="True">
+                  <Node name="yarnScripts" expanded="True">
+                    <Node name="IrvinScripts" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Yarn Tutorial" expanded="True">
+                <Node name="School Tour.txt" selected="True" />
+              </Node>
+              <Node name="YarnSpinner" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="84b4add0-caea-4f3f-93aa-43e3419cc80e" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

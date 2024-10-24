@@ -1,0 +1,175 @@
+//Day 4
+//Irvin is in class, waiting for the bell to ring.
+<<Scene @ bg_classroom>>
+Mr. Smith: Group 4, how are you doing on your project?
+
+<<Act @ Irvin>>
+Irvin: Not so good due to some people.
+
+<<Act @ Amandla>>
+<<Act @ Irvin>>
+Amandla: Don't act like this isn't the fault of you and your trash opinion.
+
+<<Act @ Jelani>>
+Jelani: You see what I had to deal with?
+
+<<Act @ Mr. Smith>>
+<<Hide @ Jelanir>>
+<<Hide @ Irvin>>
+<<Hide @ Amandla>>
+
+Mr. Smith: Your personal problems are not mine. I just need you 3 to present a coherent presentation tomorrow or it's a zero.
+<<Act @ Irvin>>
+<<Hide @ Mr.Smith>>
+//Students laugh. Irvin fumes.
+//Class goes on. The bell rings and he rushes over to Mr. Smith's desk.
+<<Act @ Irvin>>
+<<Act @ Mr. Smith>>
+Mr. Smith: Irvin! What can I do for you?
+
+Irvin: I know this is last minute but-
+
+Mr. Smith: No.
+
+Irvin: ...I didn't even-
+
+Mr. Smith: -finish? I know. You're not getting along with your classmates and now you're wondering if I can break your group apart. It's too late for that, the project is due tomorrow! Plus, I believe that you can rub off on Amandla and turn her from a rebel to a good student. Believe it or not, I care about her wellbeing to an extent.
+
+Irvin: But Mr. Smith...
+
+Mr. Smith: No ifs, ands, or buts?
+
+Irvin: B-
+
+Mr. Smith: Oh Irvin, don't tell me you're hard of hearing!
+
+//Irvin stands still.
+
+Irvin: I understand. Enjoy the rest of your day.
+<<Hide @ Mr. Smith>>
+<<Scene @ bg_hallway>>
+//He leaves the room. He goes into his Physics class. 
+<<Scene @ bg_classroom>>
+//He greets Mr. P and goes through the class.
+//Once the bell rings, he packs up his things. He hears snickering around him. Ignoring it, he puts his bookbag on his back and looks up to see his mother in the room he freezes.
+<<Act @ Irvin>>
+<<Act @ Mother>>
+Irvin: (...Oh no.)
+
+//His mother faces him and motions him to come upward. Mr. P gives her a small smile.
+<<Act @ Mr. P>>
+<<Hide @ Irvin>>
+Mr. P: Mrs. [HMMM]... I didn't expect to see you today.
+<<Act @ Mother>>
+Mother: Neither did I. Can we chat a bit about my son's performance in this class?
+
+Mr. P: ...Sure!
+
+//Students eye Irv. He walks up to the desk behind his mother and sits as his face heats up.
+//Once the students leave, his mother faces him.
+
+Mother: Irvin, close the door so this conversation can be private.
+<<Act @ Irvin>>
+<<Hide @ Mr. P>>
+<<Hide @ Mother>>
+//He listens and returns to his seat.
+<<Hide @ Irvin>>
+<<Act @ Mr. P>>
+<<Act @ Mother>>
+
+Mr. P: So what would you like to discuss about his grade?
+
+Mother: He revealed to his father and I that he received an 89?
+
+Mr. P: Yes! It was the highest grade in the class!
+
+Mother: Yes, we've heard. The two of us want to know the mistakes he made to get this strange grade?
+
+//Mr. P shifts a bit.
+
+Mr. P: ...Strange?
+<<Act @ Irvin>>
+<<Hide @ Mr. P>>
+<<Hide @ Mother>>
+Irvin: (I can't watch this.)
+//He stands up
+<<Hide @ Irvin>>
+<<Hide @ Mr. P>>
+<<Act @ Mother>>
+Mother: Sit down, Irvin.
+//He sits down
+<<Act @ Irvin>>
+<<Hide @ Mr. P>>
+<<Hide @ Mother>>
+Irvin: Yes, Mother.
+<<Hide @ Irvin>>
+<<Hide @ Mr. P>>
+<<Act @ Mother>>
+Mother: Irvin has been receiving perfect scores in this class, receiving this grade will damage his grade and will ultimately affect his overall grade point average.
+<<Act @ Mr. P>>
+Mr. P: While his grade will shift, it won't be drastic. You see the 89 isn't the real grade since you need to multiply it by 1.0-
+
+Mother: It still won't be a 100 and will hurt his grade. Can he retake the test?
+//Shocked here
+<<Act @ Irvin>> 
+<<Hide @ Mr. P>>
+<<Hide @ Mother>>
+//______________________________
+
+<<Hide @ Irvin>>
+<<Act @ Mr. P>>
+<<Hide @ Mother>>
+Mr. P: It's a bit late for that...
+<<Act @ Mother>>
+Mother: Are you unable to make another test with different questions and have him take it before or after school? You don't have to make the test easier for him. The questions can be the same difficulty or harder since we made sure he studied and understood the material.
+<<Act @ Mr.P>>
+<<Act @ Irvin>>
+<<Hide @ Mother>>
+//Mr. P glances at Irv then looks at his Mother
+<<Hide @ Irvin>>
+<<Act @ Mr. P>>
+<<Act @ Mother>>
+Mr. P: I'm afraid not since that wouldn't be fair to the other students. If it helps, I could assign him some extra credit that can boost his test grade to a 100.
+
+//His mother smiles.
+
+Mother: That will be fine. Thank you for understanding!
+
+//The bell rings. Mr. P smiles.
+
+Mr.P: Great! I'll email Irvin the extra credit later since I need to write him a late pass.
+
+Mother: Yes! Yes! No worries!
+<<Act @ Irvin>>
+<<Hide @ Mr. P>>
+<<Act @ Mother>>
+//She walks up to her son and gives her son a quick kiss.
+
+Mother: I will see you when you come home!
+
+//She leaves. 
+<<Act @ Irvin>>
+<<Act @ Mr. P>>
+//Mr. P walks over to Irv and hands him the pass.
+
+Irvin: Thank you.
+<<Scene @ bg_hallway>>
+//He leaves before Mr. P can speak. 
+<<Scene @ bg_classroom>>
+//His next class is a blur. Soon it's lunch. He enters the library with John by his side.
+<<Scene @ bg_library>>
+<<Act @ Irvin>>
+<<Act @ John>>
+John: Irvin, I know you're embarrassed but hiding out in the library isn't going to help. You have a few more classes left in the day!
+
+Irvin: I'm aware and I don't care. I just want to disappear for a few minutes and find comfort in a good book.
+
+//As he walks through the library, He spots Amandla eating lunch. He is about to roll he eyes until spots the book in her hand.
+
+Irvin: (My goodness... she's reading Tolstoy!)
+//He rubs his eyes and eyes the book again.
+John: Irvin, are you tired?
+
+Irvin: No, I thought I was seeing things. Let's find a table to eat before it's too late.
+
+//LOL WE DIDN'T WRITE THIS PART!

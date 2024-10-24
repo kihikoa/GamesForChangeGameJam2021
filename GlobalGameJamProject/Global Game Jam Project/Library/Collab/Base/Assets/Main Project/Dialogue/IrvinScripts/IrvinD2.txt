@@ -1,0 +1,150 @@
+//Day 2
+<<Scene @ bg_hallway>>
+<<Act @ Irvin, Irvin>>
+//Irv walks into school. While he looks fine in everyone else's eyes. He's really tired.
+
+<<Act @ Irvin, Irvin>>
+Irvin: (All I have to do is get through the day so I can take a nap as soon as I get home.)
+
+<<Act @ Jelani, Jelani>>
+Jelani: IRVIN!
+
+//Irv turns around to see Jelani dashing towards him. He doesn't even get a chance to react!
+
+Jelani: I couldn't find your email in the directory so I couldn't contact you yesterday! We need to meet up with Amandla so we can schedule a meeting for our project.
+
+Irvin: I'm not in the mood to-
+
+//She drags him over to Amandla.
+<<Act @ Amandla, Amandla>>
+
+Jelani: Hey guys! We have to schedule this meeting sooner than later...
+
+Irvin: Fine. Let's meet in the Library at 3.
+
+Amandla: Wow, everyone's favorite student wants us to be in his presence? This is such an honor!
+
+//Irvin stares at her
+
+Jelani: Okay! What's your email? I couldn't find it in the directory?
+
+Irvin: Irvin@DCSchools.edu. Bye for now.
+
+//Irv leaves for his next class. As he walks, he can barely stay awake.
+//He runs into something. When he opens his eyes. It's the student that ran into him yesterday.
+
+//Show tag
+<<Act @ Random Student, Random>>
+Random Student: Well would you look at that? It's the teacher's pet!
+<<Act @ Irvin>>
+//Irv rubs his eyes.
+
+Irvin: Just say what you need to say so you can live the power fantasy you keep on thinking about.
+
+//Random gets angry.
+
+Random Student: What did you say?
+
+Irvin: I'm not a fan of repeating myself. Considering getting your ears checked so you can hear me the first time.
+
+//Random raises his hands.
+
+<<Act @ ???, IrvFriend>>
+
+???: Hey! Leave Irvin alone!
+
+//Irv and random see Irv's friend John, standing not too far away.
+
+Irvin: (Ah, John. You're just in time.)
+
+<<Act @ John, IrvFriend>>
+<<Hide @ Irvin>>
+<<Hide @ Random Student>>
+
+John: Look here buddy, no one wants any trouble! If you lay a hand on him, I'll make sure the teachers will write you so the principal can deal with you!
+
+//Random stands down.
+<<Act @ Random Student>>
+<<Hide @ John>>
+Random: Of course your White pal would show up to save you. I promise you, the next time you do act snarky, it'll be over. See you soon, sellout.
+
+//Random walks away. John walks up to Irv.
+
+<<Act @ John>>
+<<Hide @ Random>>
+John: Are you ok? I got a bit nervous when he started talking to you but it looks like my words made him reconsider!
+<<Act @ Irvin>>
+Irvin: Yes, they did. Thank you.
+
+//John frowns.
+
+John: Is everything ok?
+
+Irvin: Yes. I will see you during lunch.
+
+//John nods and they go their separate ways.
+//The day goes by and somehow Irv is able to make it to the library.
+<<Scene @ bg_library>>
+
+Irvin: (As soon as this thing is over, I'm going to take a nap.)
+
+//He looks at the time. In a few minutes, Jelani and Amandla come In
+<<Act @ Jelani>>
+<<Hide @ Amandla>>
+Irvin: It's good to see you two are on time.
+
+Amandla: What, you expected us to be late?
+
+Irvin: Considering who I'm working with...
+
+Jelani: Be nice. Anywho,  What did you guys think of the movie?
+
+Amandla: Well I thought everyone was justified in their actions. Sal had the right to do what he wants in his place. The people of bed-sty have control of their neighbourhood. The only group of people in the wrong were the cops. ACAB.
+
+Irvin: I believe no one did the right thing. While I agree with Buggin' Out's opinion that the wall should have influential Black figures on the wall and a boycott would be a great solution to this problem, he let his anger cloud his judgment and partnered with Radio Raheem to cause a situation that should have never happened. If Buggin' Out and Sal were able to have a civil conversation with each other, the change would have been made.
+
+Jelani:  Well, it gave me a certain joy when Sal's Place was burned down. I'll say that.  While everyone had some wrong in them, Sal was the most wrong. He caused the most havoc.
+
+//They stare at each other
+
+Amandla: Why am I not surprised about your opinion Irvin. What would a goody 2 shoes like you understand about struggle, huh? You don't understand how us measly regular people experience the world and I don't know if you ever will.
+
+Irvin: Just because I have a standard and a reputation to uphold, doesn't mean I don't understand struggle. In fact, being your babysitter for these next few days is worth a decade of struggle!
+
+Amandla: You'll never understand what it's really like to be black. You'll never understand what people like Jelani and I go through. We don't adapt ourselves and change to be "proper". Proper to who? We all know who.
+
+Irvin: *chuckles* The fact that you think I'm trying to please the "White man", then that tells me everything I need to know. You have such low standards for Black people that you think me being me means I want to be White! Is that why you act like a reject? You think you're helping our people by being a deliquent?
+
+Amandla: Oh you think you know me. You think you know me! You don't. You'll know my fist pretty well if you keep talking though. So go ahead, keep talking.
+
+Jelani: Irvin, you have been working my nerves all day. The way you have talking to us is out of pocket. I get it. You are feeling a lot of pressure, but there's no reason for you to be looking down on others like that.
+
+Amandla: See Irvin. Even Jelani, the worlds kindest athlete, thinks that you're a pompus prick.
+
+Jelani: You're about to see a different person today. Amandla, you are just as problematic. It's insulting you would sit here at tell another black person that they don't struggle.
+
+Amandla: Well aren't you a walking talking stereotype. Sports, really? Trying to be the next unproblematic Serena Williams are we?
+
+Jelani: Weren't you late yesterday? I got time today. I wasn't going to say anything, but you aren't that smart, you're failing your classes, and nobody likes you. I tried to be your friend, but you don't deserve it dummy.
+
+Irvin: At least someone here has sense!
+
+Jelani: Don't speak. Your mouth has been spewing nothing but nonsense the past hour. I'm not about to do this. I'm out.
+
+<<Hide @ Irvin>>
+<<Hide @ Amandla>>
+<<Scene @ bg_hallway>>
+//Irv gathers his things and leaves, fuming.
+Irvin: (How dare those two speak to me that way? They had the audacity to say I was being "out of pocket". If I was "out of pocket", they were out of their minds! And the audacity for that tardy pariah to call me "White"? Despicable! Imagine being livid by someone being themselves instead of blending in with the hivemind!) 
+
+//Irv spots a a bulletin board with papers on it. He grabs one of the papers, crumbles it up, and throws it at the ground.
+//A few seconds pass. Sighing, he picks it up and throws it in the garbage.
+
+Irvin: (There's no need to go ballistic, Irvin. That would bring those two fools pleasure. Take a deep breath and calm down...)
+//Irv returns home. He goes into his room and jumps into bed.
+<<Scene @ bg_bedroom>>
+Irvin: (As much as I would love to forget about them. I can't afford to when I have a grade on the line...)
+
+//He rolls over.
+
+Irvin: (I'll worry about that later. For now, It's time for a quick nap.)

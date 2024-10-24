@@ -1,0 +1,63 @@
+title: Irvin.Day1
+tags: 
+colorID: 0
+position: -649,355
+---
+<<Scene @ Entrance>>
+<<Act @ Irvin, Irvin, 0.5, 0.5, #226677>>
+Irvin: (I don't associate myself with most of my peers.)
+Irvin: (But because the people here are strange.)
+Irvin: (Very Strange.)
+<<Act @ Strange Student, biz-guy, 0.75, 0.5, #93A8AC>>
+Strange Student: Yo! Y'all need to hear this! Lena is trying to hit on Bobby!
+A large group of students run past you. They are almost climbing over each other to get a look at the gossip.
+Irvin: (My peers aren't the smartest people. They care more about the "now" than the future.)
+<<Hide @ Strange Student>>
+<<Act @ Random Student, biz-guy, 0.75, 0.5, #93A8AC>>
+<<Shake @ Irvin, 0.3>>
+A student who is late to the action bumps into you at full speed, the books in your hands to spill all over the floor.
+Irvin: ...!
+Random Student: Sorry 'bout that!
+<<Move @ Random Student, -0.25, 0.5, 2f>>
+You feel your blood boiling, how careless could he be! He didn't even stop to help you pick up your books!
+[[Reprimand him|Irvin.ReprimandStudent]]
+[[Let him go|Irvin.IgnoreStudent]]
+===
+title: Irvin.ReprimandStudent
+tags: 
+colorID: 0
+position: -819,678
+---
+Irvin: It's fine, it's not like I expected any better from you.
+<<Move @ Random Student, 0.25, 0.5, 1f>>
+Random Student: Excuse me?
+Irvin: You heard what I said. I know you're not hard of hearing.
+Before he has an opportunity to say anything to you, you walk away
+No reason to fight someone without a single thought in their heard
+<<Move @ Random Student, -0.25, 0.5, 1f>>
+<<Hide @ Random Student>>
+[[Irvin.Class1]]
+===
+title: Irvin.IgnoreStudent
+tags: 
+colorID: 0
+position: -437,678
+---
+<<Hide @ Random Student>>
+You decided not to let the carelessness of others affect you.
+Irvin: (He's not worth my time.)
+You pick up your books and make your way to class.
+[[Irvin.Class1]]
+===
+title: Irvin.Class1
+tags: 
+colorID: 0
+position: -604,1016
+---
+Irvin:I hate all of them. I really do.
+<<Move @ Irvin, 0.25, 0.5, 1.5>>
+<<Scene @ Classroom>>
+<<Act @ Mr. Smith, biz-guy, 0.5, 0.5>>
+//Irvin enters the classroom. Mr. Smith greets him and he returns the greeting. Irvin sits in his seat. Students start to enter the room and take their seats.
+//Bell rings. Mr. Smith starts to teach
+===

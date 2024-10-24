@@ -1,0 +1,449 @@
+title: Amandla.Day1
+tags: 
+colorID: 0
+position: -439,425
+---
+<<Scene @ AmandlaBedroom>>
+<<Act @ Amandla, Amandla, 0.5, 0.5, #BC4B51>>
+<<set $LateTime to 0>>
+Light streams through the windows 
+Amandla: (Morning again. Another day at that school being "that irresponsible goth girl")
+Mom: Amandla! 
+Amandla's mom calls out from somewhere else in the house
+Amandla: What does she want now 
+Amandla's mom peeks through the door so that she's just visible
+Mom: I can't take you to school today
+<<Shake @ Amandla, 1>>
+Amandla sits up in bed, her heart racing. Taking a quick glance at the clock on her wall.
+The clock reads 7.30 - 30 minutes to get to school
+Amandla: Wait what! Why! Mama it's already 7.30!
+Mom: My car wouldn't start. We haven't been able to get a new starter because of babamkhulu's surgery
+Amandla is out of bed now, rushing to put on her clothes and ready herself for the day
+Amandla: You really need to get that fixed sooner rather than later.
+Amandla's mom rolls her eyes
+Mom: Stop talking and get walking!
+<<Scene @ AHE>>
+5 minutes later Amandla is running out the door. 
+25 minutes to get to class
+Amandla: (Okay I have 2 options from here. I could either go down 14th street or cut through the park)
+[[14th Street|Day1.14]]
+[[14th Street|Day1.Park]]
+===
+title: Day1.14
+tags: 
+colorID: 0
+position: -686,781
+---
+<<Scene @ Mainstreet>>
+Amandla: (Usually 14th has a lot of foot traffic but today it looks a little empty)
+Amandla: (If I make it to Bennet in 5 minutes I'll probably make it)
+Amandla rushes down the side walk careful not to bump into anyone along the way
+It takes 10 minutes to get down to Bennet
+Amandla: (That took longer than I thought)
+As she steps onto Bennet Drive Amandla look at the 14th Street Park
+Amandla: (Looks busy, glad I didn't go there)
+<<set $LateTime to $LateTime + 5>>
+[[Day1.Bennet]]
+===
+title: Day1.Park
+tags: 
+colorID: 0
+position: -140,781
+---
+<<Scene @ Park>>
+Amandla: (Going through the park could be a good shortcut. It leads almost directly to Bennet Drive).
+Amandla makes her way towards the park and starts to notice that theres more people than usual walking through
+Amandla: (There's too many people here! This wasn't a good idea)
+It takes 15 minutes for Amandla to make her way through the park 
+<<set $LateTime to $LateTime + 10>>
+Amanda steps onto Bennet Drive the intersection of Bennet and 14th
+Amandla: (Looks like theres traffic on 14th than usual)
+[[Day1.Bennet]]
+===
+title: Day1.Bennet
+tags: 
+colorID: 0
+position: -439,1159
+---
+<<Scene @ Bennet>>
+Amandla: (Okay, from here I can either go to the back or front entrance of the school)
+Amandla: (The front entrance takes me closer to my class)
+Amandla: (But the path to the back is a little bit less busy)
+[[Back Entrance|Day1.Back]]
+[[Front Entrance|Day1.Front]]
+===
+title: Day1.Back
+tags: 
+colorID: 0
+position: -140,1448
+---
+<<set $LateTime to $LateTime + 10>>
+Amandla: (Its probably safer to take the less popular route)
+Amandla makes her way towards the back entrance of the school.
+Unfortunately this section of Bennet Drive seems to be closed off for some consturction. 
+Amandla: (ugh I'm going to have to jump the fence and walk across the common area)
+Amandla starts to climb the school fence, scrambling to make sure nobody saw her.
+Amandla: (Don't need another detention)
+Amandla jumps down from the fence and down into the common area.
+<<Shake @ Amandla, 1>>
+Amandla: (I am going to break my knees doing this one day)
+Amandla runs towards the back entrance of the school hoping that its not too late.
+<<Scene @ Outside>>
+By the time Amandla makes it to the back entrance of the school the bell had gone off long ago
+Amandla: (Oh frick I'm already so flippin late for film study!)
+[[Day1.KickedOut]]
+===
+title: Day1.Front
+tags: 
+colorID: 0
+position: -686,1450
+---
+<<set $LateTime to $LateTime + 10>>
+Amandla: (It's probably better to keep things simple and go to the front)
+Amandla makes her way down Bennet drive towards the front entrance.
+<<Scene @ Entrance>>
+<<if $LateTime > 5>>
+As Amandla walks towards the front of the school she notices that theres nobody left outside of the building.
+<<else>>
+As Amandla approaches the school she notices that everyone is already walking inside
+<<endif>>
+Amandla: (Wait. What time is it?)
+Amandla: (Oh goodness I'm so late)
+Amandla starts to run towards the entrance and towards her class.
+[[Day1.KickedOut]]
+===
+title: Day1.KickedOut
+tags: 
+colorID: 0
+position: -439,1756
+---
+<<Scene @ Hallway>>
+Amandla: (I'm so anxious about going in here. Mr.Smith is always really judgmental of me)
+Amandla: (I might as well go inside, get it over with)
+Amandla opens the door and enters the class
+<<Show @ biz-guy, -0.25, 0.5>>
+<<Move @ Amandla, 0.75, 0.5, 1>>
+<<Move @ biz-guy, 0.5, 0.5, 2>>
+<<Scene @ Classroom>>
+Mr.Smith: As we can see in this section of the film, Spike Lee is trying to communicate-
+Mr.Smith notices Amanda and immediately looks annoyed.
+Amandla: (He's judging me again).
+Amandla: Sorry I'm late
+Mr.Smith: You know my policy Amandla, if you're not in my room by the time the bell rings-
+Amandla: (There he goes again with the policy. Maybe he'll listen this time)
+Amandla: Don't bother coming. I know that but-
+Mr.Smith: No ifs, ands, or buts. Out!
+Amandla: (Typical)
+Amandla: Fine. This class sucks anyway!
+<<Move @ Amandla, 0.5, 0.5, 1>>
+<<Move @ biz-guy, -0.25, 0.5, 1>>
+[[Day1.Hallway1]]
+===
+title: Day1.Hallway1
+tags: 
+colorID: 0
+position: -445,2064
+---
+<<Hide @ biz-guy>>
+<<Act @ Jelani, Jelani, -0.25, 0.5, #FFF7AE>>
+<<Act @ Irvin, Irvin, -0.5, 0.5, #2D728F>>
+Amandla: (I can't believe he didn't even try to listen to my side of the story).
+Amandla: (Nobody ever does anyway. Except for my parents and babamkhulu)
+Amandla: (I hope he's okay...)
+Amandla stares out the hallway window and zones out thinking about her grandpa
+He'd been in the hospital for a while and it didn't seem to be getting better
+???: Hey guys! It seems we're working together on the project! Let's do this!
+Amandla is snapped out of her thoughts and is brought face to face with 2 of her classmates
+<<Move @ Amandla, 0.75, 0.5, 1>>
+<<Move @ Jelani, 0.5, 0.5, 2>>
+<<Move @ Irvin, 0.25, 0.5, 2>>
+Amandla: (Looks like Mr.Smith assigned a project without me being there)
+Amandla: (This has to be some kind of code violation)
+Amandla: Oh cool. What are we doing it on.
+Irvin: If you were a diligent student, you would know that we're currently studying the iconic Spike Lee film Do The Right Thing-
+Amandla: (Oh no. Oh no no no no no.)
+Amandla: (This pretentious pain in the butt. Could things get any worse?)
+Amandla: I'm not stupid. Tell me what the actual project is.
+Irvin scoffs
+Irvin: We're going to determine if any of the characters did the right thing.
+Amandla: (This kid is going to get on my last nerve)
+Jelani: Uhhh. It's only one group assignment. Let's do the RIGHT thing by working together!
+Amandla: (At lease she seems reasonable)
+Irvin: I can tell you who's doing the wrong thing. Anyway, I have to go to AP Physics. If you need to contact me, you can find my email in the school's directory.
+Jelani: Wait! We haven't discussed our schedules!
+Irvin: Then we'll chat after you "break a few ankles" after your basketball practice.
+Amandla: (I didn't know that he even knew about sports)
+Jelani: I don't even play basketball...
+<<Move @ Irvin, -0.25, 0.5, 2>>
+Amandla: That guy is such a massive prick! He probably says indubitably. Probably has a maid in his house who ties his shoes! Unbelivable!
+Jelani: It's only a week. Let's try to work together.
+Amandla: (She's too optimistic for my liking)
+Amandla: (I have to make it to my next class before I get a citation)
+Amandla: Okay pep squad
+<<Move @ Amandla, 1.25, 0.5, 1>>
+<<Move @ Jelani, -0.25, 0.5, 1>>
+<<Fade @ black, 0.0, 1.0, 1.0>>
+<<HideAll @ >>
+End of Day 1
+[[Amandla.Day2]]
+===
+title: Amandla.Day2
+tags: 
+colorID: 0
+position: -443,2352
+---
+<<FadeIn @ 1>>
+<<Scene @ Entrance>>
+<<Act @ Amandla, Amandla, 0.5, 0.5, #BC4B51>>
+<<Act @ Jelani, Jelani, -0.25, 0.5, #FFF7AE>>
+<<Act @ Irvin, Irvin, -0.5, 0.5, #2D728F>>
+Amandla's moms car pulls into the school parking lot
+Mom: I'll be going to visit babamkhulu tonight so you'll be on your own for a little bit till dad gets home
+Amandla: Okay mom. Let me know how it goes
+Amandla steps out of the car and onto the school grounds
+Its bustling with students
+Amandla: (Looks like I'm on time today)
+<<Scene @ Hallway>>
+<<Move @ Jelani 0.25, 0.5, 1>>
+<<Move @ Irvin 0.5, 0.5, 1>>
+<<Move @ Amandla 0.75, 0.5, 1>>
+Amandla: (Oh no, here they come)
+Jelani: Hey guys! We have to schedule this meeting sooner than later...
+Irvin: Fine. Let's meet in the Library at 3.
+Amandla: (He's acting like its a death sentence)
+Amandla: Wow, everyone's favorite student wants us to be in his presence? This is such an honor!
+Irvin stares at her
+Jelani starts to feel uncomfortable and steps in
+Jelani: Okay! What's your email? I couldn't find it in the directory?
+Irvin: Irvin@DCSchools.edu. Bye for now.
+<<Move @ Irvin, -0.25, 0.5, 1>>
+<<Move @ Amandla, 1.25, 0.5, 1>>
+<<Move @ Jelani, -0.25, 0.5, 1>>
+<<Fade @ black, 0.0, 1.0, 1.0>>
+<<FadeIn @ 1>>
+<<Scene @ Stairs>>
+The bell chimes and Amandla emerges from her last class of the today
+<<Move @ Amandla, 0.75, 0.5, 1>>
+Amandla: (Guess I do have to work with them for a grade).
+Amandla starts to make her way towards the class and runs into Jelani on the Stairs
+<<Move @ Jelani, 0.25, 0.5, 1>>
+Jelani: Looks like we're walking buddies
+Amandla: (How is she this happy all the time?)
+The duo make their way to the library
+<<Scene @ Library>>
+<<Move @ Irvin 0.5, 0.5, 2>>
+Irvin: It's good to see you two are on time.
+Amandla: (How are your expectations so low)
+Amandla: What, you expected us to be late?
+Irvin: Considering who I'm working with...
+Jelani: Be nice. Anywho,  What did you guys think of the movie?
+Amandla: Well I thought everyone was justified in their actions. Sal had the right to do what he wants in his place. 
+Amandla: The people of bed-sty have control of their neighbourhood. The only group of people in the wrong were the cops. ACAB.
+Irvin: I believe no one did the right thing. While I agree with Buggin' Out's opinion that the wall should have influential Black figures on the wall and a boycott would be a great solution to this problem,
+Irvin: He let his anger cloud his judgment and partnered with Radio Raheem to cause a situation that should have never happened. If Buggin Out and Sal were able to have a civil conversation with each other, the change would have been made.
+Jelani: Well, it gave me a certain joy when Sal's Place was burned down. I'll say that.  
+Jelani: While everyone had some wrong in them, Sal was the most wrong. He caused the most havoc.
+Amandla: (They're both dead wrong)
+They all stare at each other
+Amandla: (Might as well speak my mind)
+Amandla: Why am I not surprised about your opinion Irvin. What would a goody 2 shoes like you understand about struggle, huh? 
+Amandla: You don't understand how us measly regular people experience the world and I don't know if you ever will.
+Irvin: Just because I have a standard and a reputation to uphold, doesn't mean I don't understand struggle. In fact, being your babysitter for these next few days is worth a decade of struggle!
+Amandla: You'll never understand what it's really like to be black. You'll never understand what people like Jelani and I go through. 
+Amandla: We don't adapt ourselves and change to be "proper". Proper to who? We all know who.
+Irvin chuckles
+Irvin: The fact that you think I'm trying to please the "White man", then that tells me everything I need to know. You have such low standards for Black people that you think me being me means I want to be White! 
+Irvin: Is that why you act like a reject? You think you're helping our people by being a deliquent?
+Amandla: (I'm over it)
+Amandla: Oh you think you know me. You think you know me! You don't. You'll know my fist pretty well if you keep talking though. So go ahead, keep talking.
+Jelani: Irvin, you have been working my nerves all day. The way you have talking to us is out of pocket. I get it. You are feeling a lot of pressure, but there's no reason for you to be looking down on others like that.
+Amandla: (Look who got a back bone)
+Amandla: See Irvin. Even Jelani, the worlds kindest athlete, thinks that you're a pompus prick.
+Jelani: You're about to see a different person today. Amandla, you are just as problematic. It's insulting you would sit here at tell another black person that they don't struggle.
+Amandla: (Looks like she wants some too)
+Amandla: Well aren't you a walking talking stereotype. Sports, really? Trying to be the next unproblematic Serena Williams are we?
+Jelani: Weren't you late yesterday? I got time today. I wasn't going to say anything, but you aren't that smart, you're failing your classes, and nobody likes you. I tried to be your friend, but you don't deserve it dummy.
+Irvin: At least someone here has sense!
+Jelani: Don't speak. You mouth has been spewing nothing but nonsense the past hour. I'm not about to do this. I'm out.
+The group storms out in opposite directions
+<<Move @ Irvin, -0.25, 0.5, 1>>
+<<Move @ Amandla, 1.25, 0.5, 1>>
+<<Move @ Jelani, -0.25, 0.5, 1>>
+<<Fade @ black, 0.0, 1.0, 1.0>>
+End of Day 2
+[[Amandla.Day3]]
+===
+title: Amandla.Day3
+tags: 
+colorID: 0
+position: -449,2642
+---
+<<FadeIn @ 1>>
+<<Scene @ Classroom>>
+<<Move @ Amandla, 0.5, 0.5, 1>>
+Amandla: (I can't hear a word he's saying)
+Amandla: (Not that it matters, thoughts hurt right now)
+Amandla sat at her desk forlorn. That morning her mom informed her that her grandpa's condition had worsened.
+He didn't have much time left
+<<Shake @ Amandla, 0.5>>
+Amandla is started by the bell ringing without much thought she's up and out into the hallway
+<<Move @ Amandla, 0.75, 0.5, 1>>
+<<Scene @ Hallway>>
+Amandla walks into the hallway, she looks around to figure out where her next class is
+Amandla: (I feel so disoriented)
+Amandla's eyes land directly on Jelani who looks directly at her
+They stare at eachother for a brief moment before Jelani starts to approach Amandla
+<<Move @ Jelani, 0.25, 0.5, 1>>
+Amandla: (This girl needs to know who I am)
+Amandla: I can't believe you said that yesterday.
+Jelani: Why can't you look at anyone but yourself! 
+Amandla: Look man. I am going through a lot. You wouldn't understand. 
+Amandla: (I don't have time for this)
+The two stare at each other and then walk away
+<<Move @ Jelani, -0.25, 0.5, 1>>
+<<Scene @ Classroom>>
+<<Move @ Amandla, 0.5, 0.5, 1>>
+Amandla: (I want this day to end)
+The class drones on and on for what feels like days before the receptionist walks in
+Receptionist: Is Amandla Green in this class
+Amandla raises her hand slowly
+Amandla: (What did I do now)
+Receptionist: Your mom is here to fetch you deary
+Amandla's heart sinks into her stomach. Theres no other reason her mom would be here
+<<Move @ Amandla, 1.25, 0.5, 1>>
+<<Fade @ black, 0.0, 1.0, 1.0>>
+The rest of the day is a blur filled with forgotten conversations
+By the time Amandla has a moment to think shes in her room with the door locked
+<<Scene @ ARN>>
+<<FadeIn @ 1>>
+<<Move @ Amandla, 0.5, 0.5, 1>>
+Amandla: (I can't believe he's gone!)
+Amandla: (He helped me form my entire identity and now he's gone)
+Amandla: (I'm never going to hear another story about the fight for freedom in South Africa. The fight for the rights of black people to be who they want to be)
+Amandla: (He's just...Gone)
+Amandla begins to cry quietly but before long it turns into a wail
+Amandla: "H-h-h-how is h-he gone! Why!"
+Amandla hears a knock on the door
+Mom: Hey nana, I know you probably don't want to talk to me
+Amandla: Its okay, what do you need
+Mom: I remember how you and your Grandpa used to run a book club before he went to the hospital
+Amandla: I remember the book club
+Mom: Well he left one more book for you. Its one of his favourites.
+Amandla nearly starts crying again
+Amandla: um, you can leave it by the door.
+Mom: Okay, I'm here if you need me
+Amandla: I know Mama
+Amandla hears her mom walk away from the door and goes to pick up the book
+Its an old copy of War and Peace. It was a bit different from the stuff they usually read.
+But holding it made it feel like babamkhulu was right there with her
+<<Fade @ black, 0.0, 1.0, 1.0>>
+End of day 3
+[[Amandla.Day4]]
+===
+title: Amandla.Day4
+tags: 
+colorID: 0
+position: -441,2898
+---
+<<FadeIn @ 1>>
+<<Scene @ Classroom>>
+<<Show @ biz-guy, 0.5, 0.5>>
+<<Move @ Amandla, 0.75, 0.5, 1>>
+<<Move @ Jelani, 0.25, -1, 1>>
+<<Move @ Irvin, 0.25, -1, 1>>
+Amandla: (Ugh this class again. I don't know why mom insisted I come here today)
+Mr.Smith: Group 4, how are you doing on your project?
+<<Move @ Irvin, 0.25, 0.5, 1>>
+Irvin: Not so good due to some people.
+Amandla: (I should have punched him)
+Amandla: Don't act like this isn't the fault of you and your trash opinion
+<<Move @ Irvin, 0.25, -1, 1>>
+<<Move @ Jelani, 0.25, 0.5, 1>>
+Jelani: You see what I had to deal with?
+Mr Smith: Your personal problems are not mine. I just need you 3 to present a coherent presentation tomorrow or it's a zero.
+<<Move @ Jelani, 0.25, -1, 1>>
+Giggles can be heard around the class
+Amandla: (Why today)
+The bell eventually rings and Amandla makes her way out of the door 
+As she does she notices Irvin run up to Mr.Smith
+Amandla: (A suck up till the end, huh?)
+Amandla leaves before they start talking.
+<<Hide @ biz-guy>>
+<<Scene @ Hallway>>
+<<Move @ Amandla, 0.5, 0.5, 1>>
+Amandla: (Its my lunch period now).
+Amandla: (I don't really feel with interacting with anybody. At least I feel less like it than usual)
+Amandla remembers her grandfathers book
+Amandla: (Maybe I'll go read that)
+<<Scene @ Library>>
+Amandla: If babamkhulu wanted me to read this, I guess I have to.
+Amandla sits down at an empty desk at the library and starts to focus on the words on the page
+She loses her mind to the pages, feeling the story as if she was there
+No wonder her grandpa liked this book. It was amazing
+Amandla's focus is broken by the shrill tone of the bell
+Amandla: Well I better get to my next class
+<<Scene @ Hallway>>
+<<Move @ Amandla, 0.75, 0.5, 1>>
+Amandla makes her way towards the classroom.
+Just like the previous day she sees Jelani in the hallway with a group of athletes
+Amandla: (Great, her again)
+Bullying Scene
+Amandla: (I kind of feel bad for her)
+Amandla: (Actually, I feel very bad for her. If I knew that was happening I wouldn't have said those things)
+<<Move @ Irvin, -0.25, 0.5, 1>>
+<<Move @ Amandla, 1.25, 0.5, 1>>
+<<Move @ Jelani, -0.25, 0.5, 1>>
+<<Fade @ black, 0.0, 1.0, 1.0>>
+<<FadeIn @ 1>>
+The last bell of the day rings and Amandla makes her way out of the classroom
+Amandla: (Glad thats over. I still have that dumb project due tomorrow)
+Amandla: (I do feel bad about inconveniencing Jelani after seeing all of that)
+
+Apology Scene
+
+Amandla: (Well thats a weight off of my chest)
+Jelani: Lets get to work on this project!
+
+<<Move @ Irvin, -0.25, 0.5, 1>>
+<<Move @ Amandla, 1.25, 0.5, 1>>
+<<Move @ Jelani, -0.25, 0.5, 1>>
+<<Fade @ black, 0.0, 1.0, 1.0>>
+End of Day 4
+[[Amandla.Day5]]
+===
+title: Amandla.Day5
+tags: 
+colorID: 0
+position: -439,3200
+---
+<Show @ biz-guy, 0.5, 0.5>>
+Mr. Smith: I must say I'm impressed that you three were able to come together in the end!
+
+<<Hide @ biz-guy>>
+
+<<Show @ Jelani, 0.25, 0.5>>
+<<Show @ Amandla, 0.5, 0.5>>
+<<Show @ Irv>, 0.75, 0.5>
+Amandla: What're you trying to say?
+
+//Jelani and Irv step on her feet, shutting her up.
+
+Jelani and Irv: Thanks Mr. Smith!
+<<Hide @ Jelani>>
+<<Hide @ Amandla>>
+<<Hide @ Irvin>>
+<<Show @ biz-guy>>
+Mr. Smith: You're welcome! You know... I think you three can be best friends if you spend more time with each other...
+
+You smile.
+
+Jelani: You have a point Mr. Smith! Do you guys want to get pizza?
+
+Amandla: Hell yeah I'm down.
+
+Irvin: Pizza is too greasy. We can go to the local cafe for healthier options.
+
+You and Amandla stare at him.
+
+Irvin: Fine. We can get pizza. I hope it doesn't dirty my clothes.
+===

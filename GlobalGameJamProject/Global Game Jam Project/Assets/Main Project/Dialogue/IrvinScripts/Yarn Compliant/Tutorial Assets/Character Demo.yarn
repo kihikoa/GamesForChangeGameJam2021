@@ -1,0 +1,67 @@
+title: Punk.Start
+tags: 
+colorID: 0
+position: -472,382
+---
+<<Scene @ Outside>>
+<<Show @ cool-girl, 0.5, 0.5>>
+<<Set $Good to 0>>
+<<Set $Bad to 0>>
+Punk: I'm running late! I hope I don't get in trouble.
+What will I tell the teach!
+[[My mom's car broke down|Punk.Excuse1]]
+[[My dog died|Punk.Excuse2]]
+===
+title: Punk.Class1
+tags: 
+colorID: 0
+position: -472,985
+---
+<<Scene @ Classroom>>
+<<Move @ cool-girl, 0.25, 0.25, 1>>
+<<Show @ biz-guy, 0.75, 0.75>>
+Teacher: you're late!
+Punk: Sorry sir its not-
+Teacher: I don't care! Clearly you don't care about this class!
+Teacher: What's your excuse
+<<if $Bad is 1>>
+Punk: My dog died this morning
+Teacher: You told me our dog died 2 weeks ago!
+<<else>>
+Punk: My mom's car stopped working so I had to walk
+Teacher: Thats a lame excuse!
+<<endif>>
+Teacher: Get out of my class!
+<<Hide @ biz-guy>>
+[[Punk.KickOut]]
+===
+title: Punk.KickOut
+tags: 
+colorID: 0
+position: -472,1292
+---
+<<Scene @ Hallway>>
+<<Move @ cool-girl, 0.5, 0.5, 1>>
+Punk: I can't believe he wouldn't let me tell my side of the story
+Punk: I'm always getting judged! Nobody listens to me!
+===
+title: Punk.Excuse1
+tags: 
+colorID: 0
+position: -715,637
+---
+You decide to tell the teacher the truth 
+<<Set $Good to 1>>
+[[Punk.Class1]]
+===
+title: Punk.Excuse2
+tags: 
+colorID: 0
+position: -280,637
+---
+You decide to tell the teacher the truth.
+kind of
+sparky died 2 weeks ago but it still hurts
+<<Set $Bad to 1>>
+[[Punk.Class1]]
+===

@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Yarn Tutorial/ropework_blank_template 1.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0

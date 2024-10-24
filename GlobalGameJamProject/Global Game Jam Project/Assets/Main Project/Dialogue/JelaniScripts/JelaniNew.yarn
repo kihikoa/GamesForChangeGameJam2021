@@ -1,0 +1,466 @@
+title: J.Start
+tags: 
+colorID: 8
+position: -208,-511
+---
+<<Scene @ Outside>>
+<<Show @ Jelani, 0.5, 0.5>>
+<<Set $Good to 0>>
+<<Set $Bad to 0>>
+Day 1 
+Jelani: I can't wait for my track and field meet this weekend! 
+Jelani: I know I'll come in first place. 
+[[J.Class1]]
+===
+title: J.Class1
+tags: 
+colorID: 0
+position: -210,-199
+---
+<<Scene @ Classroom>>
+
+<<Show @ Mr.Smith, 0.5, 0.5>>
+
+Mr.Smith: As you can see in this section of the film, Spike Lee is trying to commuinicate-
+
+The door bursts open to reveal Amandla.
+
+<<Show @ Amandla, 0.75, 0.75>>
+
+Amandla: Sorry I'm late. 
+
+Mr. Smith: You know my policy Amandla, if you're not in my room by the time the bell rings-
+
+Amandla: Don't bother coming. I know that but-
+
+Mr. Smith: No ifs, ands, or buts. Out!
+
+Amandla: Fine. This class sucks anyway!
+
+<<Hide @ Amandla>>
+<<Hide @ Mr.Smith>>
+
+<<Show @ Jelani, 0.75, 0.75>>
+
+Jelani: That was harsh. I hope Amandla is okay. 
+
+<<Hide @ Jelani>>
+
+<<Show @ Mr.Smith, 0.75, 0.75>>
+
+Mr.Smith: As I was saying- before I was rudely interrupted. 
+
+
+Mr. Smith: When this movie came out, it sparked a controversy that lasts to this day. While it's obvious the police did the wrong thing, who do you believe did the right thing?
+
+
+Mr.Smith: Did anyone do the right thing in that matter? This isn't something you can look up since everyone has their opinion on the subject. 
+
+Mr. Smith: If Lee himself can't give an exact answer for the question, the reviewers can't either.
+
+<<Show @ Jelani>>
+
+Jelani: If there's no clear answer, what's the point?
+
+<<Hide @ Jelani>>
+
+Mr. Smith: Good question! The point is to start a conversation on what we should for situations like this. 
+
+
+Mr. Smith: There are people who believe the characters were justified in their rioting while others say otherwise. 
+
+Mr.Smith: Should everything always be peaceful or should it be peaceful for a certain time?
+
+A few hands go up
+
+Mr. Smith: Don't tell me, but discuss with your group members! I have decided to split the class into 6 groups of 3...
+
+Mr. Smith assigns students into groups.
+
+Mr. Smith: Group 4 will be Amandla, Irvin, and Jelani.
+
+<<Show @ Irvin>>
+
+Irvin: Oh great... A team of people who don't care...
+
+Mr. Smith: Now that you have your groups. You can meet and discuss with each other.
+
+
+You run towards Irvin.
+
+Jelani: Hey Irv!
+
+<<Act @ Irvin>>
+<<Act @ Jelani>>
+
+Irvin: Good day to you, Jelani.
+
+Jelani: Aw, thanks! Let's go meet up with Amandla!
+
+[[J.Hallway1]]
+===
+title: J.Hallway1
+tags: 
+colorID: 0
+position: -211,90
+---
+<<Scene @ Hallway>>
+
+<<Show @ Amandla 0.25, 0.25>>
+<<Show @ Jelani 0.5, 0.5>> 
+<<Show @ Irvin 0.75, 0.75>>
+//Irvin and Jelani approach Amandla in the hallway
+
+Jelani: Hey guys! It seems we're working together on the project! Let's do this!
+
+Amandla: Oh cool. What are we doing it on.
+
+Irvin: If you were a diligent student, you would know that we're currently studying the iconic Spike Lee film Do The Right Thing-
+
+Amandla: I'm not stupid. Tell me what the actual project is.
+
+Irvin: *scoff* We're going to determine if any of the characters did the right thing.
+
+Jelani: Uhhh. It's only one group assignment. Let's do the RIGHT thing by working together!
+
+Irvin: I can tell you who's doing the wrong thing. Anyway, I have to go to AP Physics. If you need to contact me, you can find my email in the school's directory. *leaves*
+
+Jelani: Wait! We haven't discussed our schedules!
+
+Irvin: Then we'll chat after you "break a few ankles" after your basketball practice.
+
+<<Hide @ Irvin>>
+Irvin leaves.
+
+Jelani: I don't even play basketball...
+
+Amandla: That guy is such a massive prick! He probably says indubitably. Probably has a maid in his house who ties his shoes! Unbelivable!
+
+Jelani: It's only a week. Let's try to work together.
+
+Amandla: Okay pep squad (rolls her eyes)
+
+Jelani rolls her eyes and walks away. 
+
+[[J.Day2.1]]
+===
+title: J.Day4
+tags: 
+colorID: 8
+position: 865,-518
+---
+
+You're in class, waiting for it to end since you're still a bit uneasy around Amandla and Irvin.
+
+<<Scene @ classroom>>
+
+Mr. Smith: Group 4, how are you doing on your project?
+
+Irvin: Not so good due to some people.
+
+Amandla: Don't act like this isn't the fault of you and your trash opinion
+
+Jelani: You see what I had to deal with?
+
+Mr Smith: Your personal problems are not mine. I just need you 3 to present a coherent presentation tomorrow or it's a zero.
+
+Class laughs. 
+
+Jelani: That was embarrassing 
+
+Soon the bell ends and Jelani seea Irvin runs up to Mr. Smith. 
+You leave before they start talking.
+
+//Has awkward interaction with your teammates, 
+//Doesn't notice Amandla
+//You move on with your day. In one of your classes, you have to use the bathroom. You leave for the bathroom and walk past and recognize Irv. You're ready to snub him until you see a woman that looks similar to him talking to his teacher. You look around the hallway.
+//It's clear. You duck under the window and press your ear to the door.
+
+//<<Scene @ classroom>>
+Mother: Irvin has been receiving perfect scores in this class, receiving this grade will damage his grade and will ultimately decimate his overall grade point average...
+<<Show @ Mr. P>>
+Mr. P: ...While his grade will shift, it won't be drastic. You see, the 89 isn't the real grade since you need to multiply it by-
+
+Mother: It still won't be a 100 and will hurt his grade. Can he retake the test?
+//You're shocked
+<<Hide @ Mr. P>>
+<<Hide @ Mother>>
+<<Show @ Jelani>>
+Jelani: Oh my gosh! Is she some kind of dictator?!
+
+<<Show @ Mr. P>>
+<<Hide @ Mother>>
+Mr. P: It's a bit late for that...
+<<Show @ Mother>>
+Mother: Are you able to make another test with different questions and have him take it before or after school? You don't have to make the test easier for him. The questions can be the same difficulty or harder since we made sure he studied and understood the material the other night.
+//Your eyes widen
+Jelani: The other night? Is that why he was such a jerk... well a BIGGER jerk in the library?
+<<Hide @ Mr.P>>
+//Sad Irv here
+<<Act @ Irvin>>
+<<Hide @ Mother>>
+<<Show @ Jelani>>
+Jelani: Poor Irv. He made be rude but he doesn't deserve this. He's one of the smartest kids in school!
+Your phone vibrates in your pocket. You take it out to see the period's almost over. You run back to your classroom before the bell can ring.
+
+[[J.Day4.2]]
+===
+title: J.Day5
+tags: 
+colorID: 0
+position: 989,87
+---
+<<Show @ Mr. Smith>>
+Mr. Smith: I must say I'm impressed that you three were able to come together in the end!
+
+<<Hide @ Mr. Smith>>
+<<Show @ Jelani>>
+<<Show @ Amandla>>
+<<Show @ Irv>>
+Amandla: What're you trying to say?
+
+//Jelani and Irv step on her feet, shutting her up.
+
+Jelani and Irv: Thanks Mr. Smith!
+<<Hide @ Jelani>>
+<<Hide @ Amandla>>
+<<Hide @ Irvin>>
+<<Show @ Mr. Smith>>
+Mr. Smith: You're welcome! You know... I think you three can be best friends if you spend more time with each other.
+===
+title: J.Day3
+tags: 
+colorID: 0
+position: 545,-332
+---
+//Amandla runs into Jelani at the school's entrance. They glare at each other and move on.
+<<Scene @ Outside>>
+<<Show @ Amandla>>
+<<Show @ Jelani>>
+
+Amandla: I can't believe you said that yesterday.
+
+Jelani: Why can't you look at anyone but yourself! 
+
+Jelani: Look man. I am going through a lot. You wouldn't understand. 
+
+<<Hide@ Amandla>>
+
+
+
+<<Scene @ Classroom>>
+Amandla throws something at Irvin in a class. He ignores her.
+
+<<Scene @ Hallway >>
+
+Jelani runs into Irvin on her way to gym. 
+<<Show @ Jelani >>
+<<Show @ Irvin>>
+
+Jelani: Look man... I'm sorry. 
+Irvin: Don't talk to me. 
+
+ 
+[[J.Day4]]
+===
+title: J.Day2.1
+tags: 
+colorID: 0
+position: 206,-515
+---
+Day 2: Hallway
+<<Scene @ Hallway>>
+<<Show @ Jelani 0.25, 0.25>>
+<<Show @ Irvin 0.5, 0.5>>
+<<Show @ Amandla 0.75, 0.75>>
+//Hallway
+Jelani: Hey guys! We have to schedule this meeting sooner than later...
+
+Irvin: Fine. Let's meet in the Library at 3.
+
+Amandla: Wow, everyone's favorite student wants us to be in his presence? This is such an honor!
+
+Irvin stares at her.
+
+Jelani: Okay! What's your email? I couldn't find it in the directory?
+
+Irvin: Irvin@DCSchools.edu. Bye for now.
+
+<<Hide @ Jelani >>
+<<Hide @ Irvin >>
+<<Hide @ Amandla >>
+//Leaves
+
+//_____________________________________________
+Library
+<<Scene @ Hallway>>
+//_____________________________________________
+
+<<Show @ Irvin 0.5, 0.5>>
+
+//Irvin is already there
+//Jelani and Amandla come in together
+
+Irvin: It's good to see you two are on time.
+<<Show @ Amandla 0.75, 0.75>>
+<<Show @ Jelani 0.75, 0.75>>
+Amandla: What, you expected us to be late?
+
+Irvin: Considering who I'm working with...
+
+Jelani: Be nice. Anywho,  What did you guys think of the movie?
+
+Amandla: Well I thought everyone was justified in their actions. Sal had the right to do what he wants in his place. The people of bed-sty have control of their neighbourhood. The only group of people in the wrong were the cops. ACAB.
+
+Irvin: I believe no one did the right thing. While I agree with Buggin' Out's opinion that the wall should have influential Black figures on the wall and a boycott would be a great solution to this problem, he let his anger cloud his judgment and partnered with Radio Raheem to cause a situation that should have never happened. If Buggin Out and Sal were able to have a civil conversation with each other, the change would have been made.
+
+Jelani:  Well, it gave me a certain joy when Sal's Place was burned down. I'll say that.  While everyone had some wrong in them, Sal was the most wrong. He caused the most havoc.
+[[J.Day2.2]]
+===
+title: J.Day2.2
+tags: 
+colorID: 0
+position: 231,-115
+---
+<<Scene @ Library>>
+<<Show @ Jelani 0.25, 0.25>>
+<<Show @ Irvin 0.5, 0.5>>
+<<Show @ Amandla 0.75, 0.75>>
+
+They all stare at each other
+
+Amandla: Why am I not surprised about your opinion Irvin. What would a goody 2 shoes like you understand about struggle, huh? You don't understand how us measly regular people experience the world and I don't know if you ever will.
+
+Irvin: Just because I have a standard and a reputation to uphold, doesn't mean I don't understand struggle. In fact, being your babysitter for these next few days is worth a decade of struggle!
+
+Amandla: You'll never understand what it's really like to be black. You'll never understand what people like Jelani and I go through. We don't adapt ourselves and change to be "proper". Proper to who? We all know who.
+
+Irvin: *chuckles* The fact that you think I'm trying to please the "White man", then that tells me everything I need to know. You have such low standards for Black people that you think me being me means I want to be White! Is that why you act like a reject? You think you're helping our people by being a deliquent?
+
+Amandla: Oh you think you know me. You think you know me! You don't. You'll know my fist pretty well if you keep talking though. So go ahead, keep talking.
+
+Jelani: Irvin, you have been working my nerves all day. The way you have talking to us is out of pocket. I get it. You are feeling a lot of pressure, but there's no reason for you to be looking down on others like that.
+
+Amandla: See Irvin. Even Jelani, the worlds kindest athlete, thinks that you're a pompus prick.
+
+Jelani: You're about to see a different person today. Amandla, you are just as problematic. It's insulting you would sit here at tell another black person that they don't struggle.
+
+Amandla: Well aren't you a walking talking stereotype. Sports, really? Trying to be the next unproblematic Serena Williams are we?
+
+Jelani: Weren't you late yesterday? I got time today. I wasn't going to say anything, but you aren't that smart, you're failing your classes, and nobody likes you. I tried to be your friend, but you don't deserve it dummy.
+
+Irvin: At least someone here has sense!
+
+Jelani: Don't speak. You mouth has been spewing nothing but nonsense the past hour. I'm not about to do this. I'm out.
+
+Everyone leaves
+[[J.Day3]]
+===
+title: J.Day4.2
+tags: 
+colorID: 0
+position: 956,-252
+---
+<<Scene @ Hallway>>
+<< Show @ Amandla>>
+<< Show @ Jelani>>
+
+The final bell rings, and everyone starts to leave their classrooms.
+You see Amandla walking down the hall. You run towards her.
+
+Jelani: Amandla!
+
+She turns and faces you. To your surprise, she gives you a quick wave.
+
+Amandla: 'Sup.
+
+Jelani: Look, I've been thinking and while we don't like each other too much, there's no point in being passive aggressive towards each other.
+
+Jelani: We have a project that is a good chunk of our grade and getting a 0 won't help any of us.
+
+Amandla: True, but I'm not too crazy over grades.
+
+Jelani: Please, Amandla? If you're still mad at me, I'm sorry for being rude to you! I shouldn't have lost my cool! It was out of character for me!
+
+Amandla: It's fine.
+
+Jelani: ...Really?
+
+Amandla: Yep. I've seen your teammates. They're jerks, no wonder you blew up.
+
+Jelani: Yeah... Yeah, they really are! In fact one day,
+
+Amandla: I'm sorry for being a jerk, too. I was just really angry. 
+
+Amandla: I'm always feeling like I'm overlooked and like people look down on me.
+
+Jelani: Aw, Amandla!
+
+You try to give her a hug, she stops you.
+
+Amandla: I'ma fan of personal space.
+
+Jelani: That's fine! Oh, and just so you know I don't think you are under me! You may be different, but you have something unique to bring to the table!
+
+Amandla: Hm.
+
+Amandla: Thanks.
+
+You smile. Down the hallway, you see Irvin reading as he walks down the hall. Amandla follows your gaze and sighs.
+
+Amandla: Do we have to?
+
+Jelani: Yes we do and he has to, too!
+
+The two of you walk up to Irvin. As soon as he sees you, his mouth opens. You cut him off.
+
+Jelani: We're here to apologize for what we said to you! Even though you're really condescending, it's clear that you get it from your mom!
+
+Irvin: Excuse me?
+
+Amandla: Wow Jelani! Going in for the kill!
+
+Jelani: No! I meant... well.. I saw your mother talking to one of your teachers the other day and it didn't look pretty and you looked really sad and-
+
+Irvin: What are you trying to say?
+
+Amandla: She's trying to say you treat others the same way your mom treats you. You should work on it so you can be likeable.
+
+Irvin: That's foolish. My parents only wants what's best for me.
+
+Jelani: By making you retake a test or take a harder test after forcing you to study all night?
+
+Irvin: ...
+
+Irvin: I see your point.
+
+Amandla: You should put your foot down and show your parents who's boss!
+
+Irvin: No no. I don't want my parents to disown me.
+
+Irvin glares at Amandla.
+
+Irvin: ...And I wouldn't follow any of the advice you gave me.
+
+Jelani: Irv!
+
+Amandla: Don't worry, Jelani. He has the right to be angry. Irv, I'm sorry for calling you a sellout. I wanted to piss you off and while I was successful, it was wrong.
+
+Amandla: Don't get me wrong, you're still weird since you talk like you're some snobby billionaire and probably listen to Beetoven-
+
+Irvin: I'm more of a Percy Grainger man-
+
+Amandla: Don't care. Anyway, you look happy being this high-standard kid, so enjoy it. It's your life.
+
+Irvin: ...I must say I wasn't expecting that. Thank you, Amandla.
+
+Irvin: I know my tongue can get me into trouble, and I'm sorry for insulting you the both of you, especially you Amandla. 
+
+Irvin: I may not understand your style or attitude but... it suits you and those like you.
+
+Amandla: Thanks!
+
+Jelani: With that being said, let's get started with our project!
+
+[[J.Day5]]
+===

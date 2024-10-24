@@ -1,0 +1,68 @@
+//Day 3
+<<Scene @ bg_hallway>>
+//Refreshed, Irvin walks through the halls. Going though the usual motions of his school day.
+//When he enters his math class, he sees Amandla sitting in the desk behind his.
+<<Scene @ bg_classroom>>
+<<Act @ Irvin>>
+<<Act @ Amandla>>
+
+Irvin: (She's actually arrived before I did. Either she's fixing her actions, or she's already rubbing off on me.)
+//He cringes at the thought
+Irvin: (Godforbid the latter.)
+//He ignores the tension and sits in his seat.
+<<Hide @ Amandla>>
+//The class starts. He starts taking notes. As he writes, he hears a paper being ripped up and crumpled behind him.
+
+Irvin: (3... 2... 1...)
+
+//Something hits his back. He rolls his eyes and continues to write.
+//The bell rings and Irv walks towards the band room.
+<<Scene @ bg_hallway>>
+//As he walks towards it, he sees Jelani running down the hall with her gym uniform on.
+<<Hide @ Irvin>>
+<<Act @ Jelani>>
+//They glare at each other as they cross paths.
+//Once she's gone, he exhales and enters the band room.
+<<Scene @ bg_classroom>>
+//John spots him and waves him over!
+<<Act @ Irvin>>
+<<Act @ John>>
+John: Hey Irvin... is everything ok? You look angry!
+
+Irvin: I would be lying if I said I was ok. I'm having a squabble with my group mates for Mr. Smith's class.
+
+John: Really? What happened?
+
+Irvin: Let's just say Miss Punky Reject had a few words about me while Miss "Hiyeeeeeee!" corraborated her statements.
+
+John: Really? Are you sure you weren't being a bit harsh with them?
+
+Irvin: I don't see why that would-
+
+//John stares at him
+
+Irvin: ...Perhaps. I didn't sleep that night since my parents wanted to test me on the material I studied.
+
+John: You failed a test?!
+
+Irvin: Yes. I received an 89 on the Physics test.
+
+John: Wasn't that the highest grade?
+
+Irvin: Yes, it was.
+
+//John frowns
+
+Irvin: Don't pity me, John. I'm not a beaten puppy.
+
+John: I'm not pitying you! You're my friend, I care about you! Honestly, I think you should apologize and tell them that you had a bad day.
+
+Irvin: Me? Apologize?
+
+John: Yes! Unless you want to tell your parents that you got a 0 due to an argument with your group members, you have no choice!
+
+Irvin: I'm not going to apologize to the duo that spat on my identity and personality! They'll need to apologize to me!
+
+John: But your grade-
+
+Irvin: I'll ask Mr. Smith for a last minute adjustment. I'm one of his favorite students, I'm sure he'll make the change.

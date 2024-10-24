@@ -1,0 +1,68 @@
+title: Punk.Start
+tags: 
+colorID: 0
+position: -472,382
+---
+<<Scene @ Outside>>
+<<Show @ Amandla, 0.5, 0.5>>
+<<set $Good to 0>>
+<<set $Bad to 0>>
+Amandla: I'm running late! I hope I don't get in trouble.
+Amandla: Mr. Smith has that dumb policy about coming in past the bell.
+Amandla: What am I going to tell him!
+[[My mom's car broke down|Punk.Excuse1]]
+[[My dog died|Punk.Excuse2]]
+===
+title: Punk.Class1
+tags: 
+colorID: 0
+position: -472,985
+---
+<<Scene @ Classroom>>
+<<Move @ Amandla, 0.25, 0.5, 1>>
+<<Show @ biz-guy, 0.75, 0.5>>
+Mr Smith: you're late!
+Amandla: Sorry sir its not-
+Mr Smith: I don't care! Clearly you don't care about this class!
+Mr Smith: What's your excuse
+<<if $Bad eq 1>>
+Amandla: My dog died this morning
+Mr Smith: You told me your dog died 2 weeks ago!
+<<else>>
+Amandla: My mom's car stopped working so I had to walk
+Mr Smith: Thats a lame excuse!
+<<endif>>
+Mr Smith: Get out of my class!
+<<Hide @ biz-guy>>
+[[Punk.KickOut]]
+===
+title: Punk.KickOut
+tags: 
+colorID: 0
+position: -472,1292
+---
+<<Scene @ Hallway>>
+<<Move @ Amandla, 0.5, 0.5, 1>>
+Amandla: I can't believe he wouldn't let me tell my side of the story
+Amandla: I'm always getting judged! Nobody listens to me!
+===
+title: Punk.Excuse1
+tags: 
+colorID: 0
+position: -715,637
+---
+You decide to tell Mr Smith the truth 
+<<set $Good to 1>>
+[[Punk.Class1]]
+===
+title: Punk.Excuse2
+tags: 
+colorID: 0
+position: -280,637
+---
+You decide to tell Mr Smith the truth.
+kind of
+sparky died 2 weeks ago but it still hurts
+<<set $Bad to 1>>
+[[Punk.Class1]]
+===

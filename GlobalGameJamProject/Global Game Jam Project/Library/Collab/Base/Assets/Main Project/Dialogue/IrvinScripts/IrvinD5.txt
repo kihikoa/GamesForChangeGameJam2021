@@ -1,0 +1,24 @@
+//Day 5
+//End of presentation
+<<Scene @ bg_classroom>>
+<<Act @ Mr. Smith>>
+Mr. Smith: I must say I'm impressed that you three were able to come together in the end!
+<<Act @ Irvin>>
+<<Act @ Jelani>>
+<<Act @ Amandla>>
+<<Hide @ Mr. Smith>>
+
+Amandla: What're you trying to say?
+
+//Jelani and Irv step on her feet, shutting her up.
+
+Jelani and Irv: Thanks Mr. Smith!
+
+<<Hide @ Irvin>>
+<<Hide @ Jelani>>
+<<Hide @ Amandla>>
+<<Act @ Mr. Smith>>
+
+Mr. Smith: You're welcome! You know... I think you three can be best friends if you spend more time with each other.
+
+//Anything else?
